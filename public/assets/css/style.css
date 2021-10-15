@@ -63,3 +63,7 @@
 .form-inline button {
   width: 200px;
 }
+
+.title-list-article {
+  justify-content: space-between;
+}

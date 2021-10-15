@@ -3,6 +3,7 @@ import { Pagination } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { getListArticleAction } from "../redux/actions";
 import { NavLink } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 
 function ListArticles(props) {
   const dispatch = useDispatch();
@@ -15,6 +16,11 @@ function ListArticles(props) {
   const [arrPagination] = useState([]);
   const [dataSearch, setDataSearch] = useState({
     search: "",
+  });
+
+  const [dataSort, setDataSort] = useState({
+    sortBy: "createdAt",
+    order: "asc",
   });
 
   // const dispatch = useDispatch();
@@ -56,6 +62,23 @@ function ListArticles(props) {
     setPagination({ ...pagination, page: page + 1 });
   };
 
+  const changeSort = (e) => {
+    setDataSort({ ...dataSort, order: e });
+    const data = {
+      ...dataSort,
+      page: pagination.page,
+      limit: pagination.limit,
+    };
+    console.log("data sort: ", data);
+    dispatch(
+      getListArticleAction(data, (stt, dataList) => {
+        if (stt === 1000) {
+          setListArticle(dataList);
+        }
+      })
+    );
+  };
+
   useEffect(() => {
     getArticleChangePage();
     // eslint-disable-next-line
@@ -91,7 +114,24 @@ function ListArticles(props) {
         </form>
       </div>
 
-      <p className="list-title">Danh sách bài viết</p>
+      <div className="d-flex title-list-article">
+        <p className="list-title">Danh sách bài viết</p>
+        <Dropdown className="d-inline mx-2" autoClose="inside">
+          <Dropdown.Toggle id="dropdown-autoclose-inside">
+            Sắp xếp
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item onClick={() => changeSort("desc")}>
+              Mới nhất
+            </Dropdown.Item>
+            <Dropdown.Item onClick={() => changeSort("asc")}>
+              Cũ nhất
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
+
       <div className="row">
         <ul className="list-unstyled">
           {listArticle.map((value, key) => {

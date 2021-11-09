@@ -1,9 +1,10 @@
 import { useDispatch } from "react-redux";
 import { Switch, Route, useLocation } from "react-router-dom";
-import DetailArticle from "./components/DetailArticle";
-import ListArticles from "./components/ListArticles";
+import BankUs from "./components/BankUs";
+import Product from "./components/Product";
 import { useEffect } from "react";
 import { getLengthArticleAction } from "./redux/actions";
+import MasterLayout from "./Layout/MasterLayout"
 
 function App() {
   let location = useLocation();
@@ -18,11 +19,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Switch location={location}>
-        <Route path="/" component={ListArticles} exact />
-        <Route path="/list-article/detail/:id" component={DetailArticle} />
-        <Route path="/list-article" component={ListArticles} />
-      </Switch>
+      <MasterLayout>
+        <Switch location={location}>
+          <Route path="/" component={BankUs} exact />
+          <Route path="/products" component={Product} exact />
+        </Switch>
+      </MasterLayout>
     </div>
   );
 }

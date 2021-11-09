@@ -49,17 +49,13 @@ function BankUs(props) {
           <div className="container">
             <div className="row">
               <p>
-                Mirae Asset Finance Việt Nam là thành viên của Tập đoàn Mirae
-                Asset đến từ Hàn Quốc, với 20 năm kinh nghiệm trong lĩnh vực tài
-                chính, đầu tư, quản lý tài sản…, đang có mặt tại 15 quốc gia,
-                cùng hệ thống 200 văn phòng và chi nhánh trên toàn thế giới.
-              </p>
-              <p>
-                Có mặt tại Việt Nam năm 2006, công ty được xây dựng dựa trên tầm
-                nhìn luôn theo đuổi chiến lược quản lý đầu tư tối ưu, nhằm hỗ
-                trợ khách hàng dễ dàng tiếp cận và có cơ hội nhận được nguồn vốn
-                hiệu quả, hợp pháp và an toàn, Mirae Asset Việt Nam đã nỗ lực
-                không ngừng để hoàn thiện các sản phẩm vay tiêu dùng.
+                Công ty TNHH BANKUS được thành lập ngày 20/06/2020. BANKUS hiện
+                có mạng lưới dịch vụ bao phủ 17 tỉnh thành phố trọng điểm tại
+                khu vực Miền Nam, tập trung cung cấp dịch vụ cho vay tiêu dùng
+                cho các nhóm khách hàng đại chúng. BANKUS hướng tới trở thành
+                một trong các công ty dịch vụ tài chính tiên phong ứng dụng công
+                nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp thiết, đồng
+                thời nâng cao chất lượng dịch vụ và sự tiện ích cho khách hàng.
               </p>
             </div>
           </div>
@@ -74,24 +70,22 @@ function BankUs(props) {
                 <div className="block-vision">
                   <p className="title">Tầm nhìn</p>
                   <p className="content-vision">
-                    Mcredit hướng tới trở thành một công ty tài chính tiêu dùng
-                    thuận tiện cho mọi người dân, được khách hàng ưu tiên lựa
-                    chọn các sản phẩm dịch vụ tài chính tiêu dùng đa dạng, đáp
-                    ứng nhu cầu của khách hàng có thu nhập khiêm tốn từ thành
-                    thị tới nông thôn. Các sản phẩm chính của Mcredit là:
+                    Để mỗi người dân Việt Nam có cơ hội nâng cao chất lượng cuộc
+                    sống nhờ các gói vay tiêu dùng nhanh chóng, tin cậy và minh
+                    bạch là mong muốn lớn nhất của chúng tôi.
                   </p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="block-mission">
                   <p className="title">Sứ mệnh</p>
-                  <p className="content-mission">
-                    Mcredit hướng tới trở thành một công ty tài chính tiêu dùng
-                    thuận tiện cho mọi người dân, được khách hàng ưu tiên lựa
-                    chọn các sản phẩm dịch vụ tài chính tiêu dùng đa dạng, đáp
-                    ứng nhu cầu của khách hàng có thu nhập khiêm tốn từ thành
-                    thị tới nông thôn. Các sản phẩm chính của Mcredit là:
-                  </p>
+                  <div className="content-mission">
+                    <p>CHÚNG TÔI CAM KẾT VỚI SỨ MỆNH: </p>
+                    <p>
+                      “Cung cấp các giải pháp Tài chính tiêu dùng thông minh, dễ
+                      tiếp cận cho mọi người dân Việt”
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -126,12 +120,7 @@ function BankUs(props) {
                       </div>
                     </div>
                     <div className="content-bottom">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque molestie lorem euconsequat gravida. Nunc mattis
-                        et erat eu sagittis. Fusce in arcu ullamcorper,
-                        fermentum nulla et, pretium ipsum.{" "}
-                      </p>
+                      <p>giải pháp tài chính tối ưu</p>
                     </div>
                   </div>
                 </div>
@@ -157,12 +146,7 @@ function BankUs(props) {
                       </div>
                     </div>
                     <div className="content-bottom">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque molestie lorem euconsequat gravida. Nunc mattis
-                        et erat eu sagittis. Fusce in arcu ullamcorper,
-                        fermentum nulla et, pretium ipsum.{" "}
-                      </p>
+                      <p>cứu nguy thần tốc khi lương chưa về</p>
                     </div>
                   </div>
                 </div>
@@ -188,12 +172,7 @@ function BankUs(props) {
                       </div>
                     </div>
                     <div className="content-bottom">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque molestie lorem euconsequat gravida. Nunc mattis
-                        et erat eu sagittis. Fusce in arcu ullamcorper,
-                        fermentum nulla et, pretium ipsum.{" "}
-                      </p>
+                      <p>Cần vay, được ngay, ngại gì covid</p>
                     </div>
                   </div>
                 </div>
@@ -220,10 +199,7 @@ function BankUs(props) {
                     </div>
                     <div className="content-bottom">
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque molestie lorem euconsequat gravida. Nunc mattis
-                        et erat eu sagittis. Fusce in arcu ullamcorper,
-                        fermentum nulla et, pretium ipsum.{" "}
+                        Cần tiền có liền. Trăm sự thuận tiện. Cuộc sống an nhiên
                       </p>
                     </div>
                   </div>
@@ -250,12 +226,7 @@ function BankUs(props) {
                       </div>
                     </div>
                     <div className="content-bottom">
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque molestie lorem euconsequat gravida. Nunc mattis
-                        et erat eu sagittis. Fusce in arcu ullamcorper,
-                        fermentum nulla et, pretium ipsum.
-                      </p>
+                      <p>Điểm tựa khi cần</p>
                     </div>
                   </div>
                 </div>

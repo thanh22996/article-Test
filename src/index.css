@@ -89,7 +89,7 @@ body {
 }
 
 .block-footer p {
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
   font-weight: 300;
   padding-left: 15px;
@@ -103,6 +103,14 @@ body {
 .block-footer .block-map {
   border-radius: 15px;
   overflow: hidden;
+}
+
+.community img {
+  max-width: 50px;
+  margin-right: 16px;
+}
+.community {
+  margin-bottom: 16px;
 }
 
 .slick-next {
@@ -287,4 +295,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.logo-footer {
+  max-width: 250px;
+  margin-bottom: 16px;
 }

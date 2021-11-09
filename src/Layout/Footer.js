@@ -7,16 +7,17 @@ export function Footer() {
         <div className="row">
           <div className="col-md-4">
             <img
+              className="logo-footer"
               width="100%"
               src="/assets/images/home/logo_1_footer.png"
               alt="logo"
             />
             <div>
-              <p>Contact us on:</p>
+              <p>Contact us on</p>
               <div className="community">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <img src="/assets/images/footer/fb-icon.png" alt="icon" />
+                <img src="/assets/images/footer/tw-icon.png" alt="icon" />
+                <img src="/assets/images/footer/tele-icon.png" alt="icon" />
               </div>
             </div>
             <p>BANK US alright reserved</p>

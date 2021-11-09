@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bank Us",
+  "name": "Bank Us - Cung cấp các giải pháp Tài chính tiêu dùng thông minh, dễ tiếp cận cho mọi người dân Việt",
   "icons": [
     {
       "src": "favicon.ico",

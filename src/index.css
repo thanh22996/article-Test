@@ -279,14 +279,10 @@ body {
   margin-bottom: 16px;
   text-align: center;
   width: 100%;
-  padding: 28% 0;
-  background-color: #fff;
-  border-radius: 50%;
 }
 
 .block-page-bankus .block-partner-list .block-partner .block-item-partner img {
-  width: 80%;
-  height: same-as-width;
+  width: 100%;
 }
 
 a {

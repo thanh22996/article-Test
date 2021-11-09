@@ -242,27 +242,30 @@ function BankUs(props) {
             <div className="row block-partner">
               <div className="col-md-4">
                 <div className="block-item-partner">
-                  <img src="/assets/images/home/mirae.png" alt="bank" />
+                  <img src="/assets/images/home/partner_mirae.png" alt="bank" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="block-item-partner">
-                  <img src="/assets/images/home/shb.png" alt="bank" />
+                  <img src="/assets/images/home/partner_shb.png" alt="bank" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="block-item-partner">
-                  <img src="/assets/images/home/mcredit.png" alt="bank" />
+                  <img
+                    src="/assets/images/home/mcredit_partner.png"
+                    alt="bank"
+                  />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="block-item-partner">
-                  <img src="/assets/images/home/easycredit.png" alt="bank" />
+                  <img src="/assets/images/home/partner_easy.png" alt="bank" />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="block-item-partner">
-                  <img src="/assets/images/home/ptf.png" alt="bank" />
+                  <img src="/assets/images/home/partner_ptf.png" alt="bank" />
                 </div>
               </div>
             </div>

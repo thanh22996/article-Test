@@ -83,7 +83,7 @@ body {
 .block-footer {
   width: 100%;
   padding: 40px 0 20px;
-  background-color: #858585;
+  background-color: #0058a7;
   color: #fff;
   font-size: 12px;
 }
@@ -121,6 +121,15 @@ body {
 .slick-prev {
   left: 50px !important;
   z-index: 2;
+}
+
+.wrapper-introduce {
+  background-image: url("img/home/bg_gioithieu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #35190c17;
 }
 
 .block-page-bankus .title-name {
@@ -300,4 +309,10 @@ a {
 .logo-footer {
   max-width: 250px;
   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .block-mission {
+    margin-top: 20px;
+  }
 }

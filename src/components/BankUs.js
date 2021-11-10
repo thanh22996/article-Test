@@ -45,18 +45,21 @@ function BankUs(props) {
       </div>
       <Fade bottom>
         <p className="title-name mb-3 text-center mt-5">GIỚI THIỆU CÔNG TY</p>
-        <div className="block-introduce span3 wow bounceInUp center">
-          <div className="container">
-            <div className="row">
-              <p>
-                Công ty TNHH BANKUS được thành lập ngày 20/06/2020. BANKUS hiện
-                có mạng lưới dịch vụ bao phủ 17 tỉnh thành phố trọng điểm tại
-                khu vực Miền Nam, tập trung cung cấp dịch vụ cho vay tiêu dùng
-                cho các nhóm khách hàng đại chúng. BANKUS hướng tới trở thành
-                một trong các công ty dịch vụ tài chính tiên phong ứng dụng công
-                nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp thiết, đồng
-                thời nâng cao chất lượng dịch vụ và sự tiện ích cho khách hàng.
-              </p>
+        <div className="wrapper-introduce">
+          <div className="block-introduce">
+            <div className="container">
+              <div className="row">
+                <p>
+                  Công ty TNHH BANKUS được thành lập ngày 20/06/2020. BANKUS
+                  hiện có mạng lưới dịch vụ bao phủ 17 tỉnh thành phố trọng điểm
+                  tại khu vực Miền Nam, tập trung cung cấp dịch vụ cho vay tiêu
+                  dùng cho các nhóm khách hàng đại chúng. BANKUS hướng tới trở
+                  thành một trong các công ty dịch vụ tài chính tiên phong ứng
+                  dụng công nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp
+                  thiết, đồng thời nâng cao chất lượng dịch vụ và sự tiện ích
+                  cho khách hàng.
+                </p>
+              </div>
             </div>
           </div>
         </div>

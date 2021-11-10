@@ -96,9 +96,7 @@ function BankUs(props) {
         </div>
       </Fade>
       <Fade bottom>
-        <p className="title-name mb-3 text-center mt-5">
-          CÁC DỰ ÁN CỦA BANK US
-        </p>
+        <p className="title-name mb-3 text-center mt-5">CÁC DỰ ÁN CỦA BANKUS</p>
         <div className="block-projects-list">
           <div className="container">
             <div className="row block-projects">
@@ -139,7 +137,7 @@ function BankUs(props) {
                     <div className="content-top">
                       <div className="content-left">
                         <p>Vay tiền mặt từ</p>
-                        <p>SHB BANK</p>
+                        <p>SHB FINANCE</p>
                       </div>
                       <div className="content-right">
                         <img
@@ -239,7 +237,7 @@ function BankUs(props) {
         </div>
       </Fade>
       <Fade bottom>
-        <p className="title-name mb-3 text-center mt-5">ĐỐI TÁC CỦA BANK US</p>
+        <p className="title-name mb-3 text-center mt-5">ĐỐI TÁC CỦA BANKUS</p>
         <div className="block-partner-list">
           <div className="container">
             <div className="row block-partner">

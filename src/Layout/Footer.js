@@ -15,29 +15,36 @@ export function Footer() {
             <div>
               <p>Contact us on</p>
               <div className="community">
-                <img src="/assets/images/footer/fb-icon.png" alt="icon" />
-                <img src="/assets/images/footer/tw-icon.png" alt="icon" />
-                <img src="/assets/images/footer/tele-icon.png" alt="icon" />
+                <a
+                  rel="noreferrer"
+                  href="https://www.facebook.com/bankus.vn/"
+                  target="_blank"
+                >
+                  <img src="/assets/images/footer/fb-icon.png" alt="icon" />
+                </a>
+
+                {/* <img src="/assets/images/footer/tw-icon.png" alt="icon" />
+                <img src="/assets/images/footer/tele-icon.png" alt="icon" /> */}
               </div>
             </div>
-            <p>BANK US alright reserved</p>
+            <p>BANKUS alright reserved</p>
           </div>
           <div className="col-md-4">
             <p className="title">LIÊN HỆ</p>
             <p>
-              <span className="mr-2">Email:</span>
+              <span className=" bl-right">Email:</span>
               <span>quang.nth@bankus.vn</span>
             </p>
             <p>
-              <span className="mr-2">Khách hàng muốn vay liên hệ:</span>
+              <span className=" bl-right">Khách hàng muốn vay liên hệ:</span>
               <span>0904876872 (Ms. Kiều)</span>
             </p>
             <p>
-              <span className="mr-2">Đối tác muốn vay liên hệ:</span>
+              <span className=" bl-right">Đối tác muốn liên hệ:</span>
               <span>0795079079 (Mr. Quang)</span>
             </p>
             <p>
-              <span className="mr-2">Văn phòng:</span>
+              <span className=" bl-right">Văn phòng:</span>
               <span>399 Phạm Văn Bạch, Phường 15, Quận Tân Bình, TPHCM</span>
             </p>
           </div>

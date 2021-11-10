@@ -311,6 +311,10 @@ a {
   margin-bottom: 16px;
 }
 
+.bl-right {
+  margin-right: 5px;
+}
+
 @media screen and (max-width: 767px) {
   .block-mission {
     margin-top: 20px;

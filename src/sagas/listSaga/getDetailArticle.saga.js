@@ -6,12 +6,10 @@ import { callApiArticle } from "../../api";
 
 function* doAction(action) {
   try {
-    console.log(action);
     const { status, data } = yield call(
       callApiArticle.getDetailArticle,
       action.payload
     );
-    console.log("code: ", data);
     // yield put({ type: apiTypes.HIDE_LOADING });
     switch (status) {
       case 200: {

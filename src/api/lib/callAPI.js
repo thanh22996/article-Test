@@ -9,7 +9,6 @@ const callApiArticle = {
   },
 
   getDetailArticle(args) {
-    console.log(args);
     return callApiArticle.callArticleAPI("get", `/blogs/${args.id}`, {
       ...args,
     });

@@ -6,7 +6,6 @@ const initState = {
 };
 
 export default function ListArticles(state = initState, { type, payload }) {
-  console.log("payload aaaaaaaa: ", payload);
   switch (type) {
     case types.GET_LIST_ARTICLE:
       return { ...state, listArticle: payload };

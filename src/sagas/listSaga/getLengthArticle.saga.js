@@ -6,12 +6,10 @@ import { callApiArticle } from "../../api";
 
 function* doAction(action) {
   try {
-    console.log("action aaaaaa: ", action);
     const { status, data } = yield call(
       callApiArticle.getListArticle,
       action.payload
     );
-    console.log("codeaaaaaaaaa: ", status);
     let arrPagination = [];
     for (let index = 0; index < Math.ceil(data.length / 10); index++) {
       arrPagination.push(index);

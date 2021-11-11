@@ -5,14 +5,11 @@ import * as types from "../../redux/types";
 import { callApiArticle } from "../../api";
 
 function* doAction(action) {
-  console.log(" 111111111", action);
   try {
-    console.log(action);
     const { status, data } = yield call(
       callApiArticle.getListArticle,
       action.payload
     );
-    console.log("code sao k vào: ", data);
     // yield put({ type: apiTypes.HIDE_LOADING });
     switch (status) {
       case 200: {

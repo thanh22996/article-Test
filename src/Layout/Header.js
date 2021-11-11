@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import { useHistory } from "react-router-dom";
 
 function Header(props) {
-  const [stateActive, setStateActive] = useState("home");
+  const history = useHistory();
+  const params = history.location.pathname.split("/");
+
+  console.log("history: ", history.location.pathname.split("/"));
+  const [stateActive, setStateActive] = useState(params && params[1]);
   const handleActive = (active) => {
     setStateActive(active);
   };
@@ -25,12 +30,12 @@ function Header(props) {
                 className="me-auto my-2 my-lg-0 block-list-menu"
                 style={{ maxHeight: "100px" }}
                 navbarScroll
-                defaultActiveKey="/"
+                defaultActiveKey=""
               >
                 <NavLink to="/">
                   <span
-                    className={stateActive === "home" && "active"}
-                    onClick={() => handleActive("home")}
+                    className={stateActive === "" && "active"}
+                    onClick={() => handleActive("")}
                   >
                     TRANG CHỦ
                   </span>
@@ -43,12 +48,12 @@ function Header(props) {
                     SẢN PHẨM
                   </span>
                 </NavLink>
-                <NavLink to="/partner">
+                <NavLink to="/recruitment">
                   <span
-                    className={stateActive === "partner" && "active"}
-                    onClick={(e) => handleActive("partner")}
+                    className={stateActive === "recruitment" && "active"}
+                    onClick={(e) => handleActive("recruitment")}
                   >
-                    ĐỐI TÁC
+                    TUYỂN DỤNG
                   </span>
                 </NavLink>
                 <NavLink to="/contact">

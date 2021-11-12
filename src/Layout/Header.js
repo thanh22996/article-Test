@@ -34,7 +34,7 @@ function Header(props) {
               >
                 <NavLink to="/">
                   <span
-                    className={stateActive === "" && "active"}
+                    className={stateActive === "" ? "active" : ""}
                     onClick={() => handleActive("")}
                   >
                     TRANG CHỦ
@@ -42,7 +42,7 @@ function Header(props) {
                 </NavLink>
                 <NavLink to="/products">
                   <span
-                    className={stateActive === "products" && "active"}
+                    className={stateActive === "products" ? "active" : ""}
                     onClick={() => handleActive("products")}
                   >
                     SẢN PHẨM
@@ -50,7 +50,7 @@ function Header(props) {
                 </NavLink>
                 <NavLink to="/recruitment">
                   <span
-                    className={stateActive === "recruitment" && "active"}
+                    className={stateActive === "recruitment" ? "active" : ""}
                     onClick={(e) => handleActive("recruitment")}
                   >
                     TUYỂN DỤNG
@@ -58,7 +58,7 @@ function Header(props) {
                 </NavLink>
                 <NavLink to="/contact">
                   <span
-                    className={stateActive === "contact" && "active"}
+                    className={stateActive === "contact" ? "active" : ""}
                     onClick={(e) => handleActive("contact")}
                   >
                     LIÊN HỆ

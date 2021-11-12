@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Recruitment(props) {
   return (
@@ -13,7 +14,9 @@ function Recruitment(props) {
       <div className="bottom-header">
         <div className="container">
           <div className="block-breakrum">
-            <span className="bl-main-br">Trang chủ</span>
+            <NavLink to="/">
+              <span className="bl-main-br">Trang chủ</span>
+            </NavLink>
             <span className="bl-main-br">
               <img src="/assets/images/icons/Arrow_cut.png" alt="icon" />
             </span>

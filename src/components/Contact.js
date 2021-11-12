@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Contact() {
   return (
@@ -13,7 +14,9 @@ function Contact() {
       <div className="bottom-header">
         <div className="container">
           <div className="block-breakrum">
-            <span className="bl-main-br">Trang chủ</span>
+            <NavLink to="/">
+              <span className="bl-main-br">Trang chủ</span>
+            </NavLink>
             <span className="bl-main-br">
               <img src="/assets/images/icons/Arrow_cut.png" alt="icon" />
             </span>
@@ -26,12 +29,12 @@ function Contact() {
         <div className="container">
           <div className="content-contact">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 line-right">
                 <div className="bl-item">
                   <p className="bl-img">
                     <img src="/assets/images/icons/icon_email.png" alt="" />
                   </p>
-                  <p className="bl-text">
+                  <p className="bl-text bl-text-common">
                     <span>Email:</span>
                     <span>quang.nth@bankus.vn</span>
                   </p>
@@ -40,7 +43,7 @@ function Contact() {
                   <p className="bl-img">
                     <img src="/assets/images/icons/icon_fb.png" alt="" />
                   </p>
-                  <p className="bl-text">
+                  <p className="bl-text bl-text-common">
                     <span>Fanpage:</span>
                     <span>https://www.facebook.com/bankus.vn</span>
                   </p>
@@ -49,18 +52,18 @@ function Contact() {
                   <p className="bl-img">
                     <img src="/assets/images/icons/icon_web.png" alt="" />
                   </p>
-                  <p className="bl-text">
+                  <p className="bl-text bl-text-common">
                     <span>Website:</span>
                     <span>https://bankus.vn</span>
                   </p>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="bl-item">
+                <div className="bl-item bl-item-right">
                   <p className="bl-img">
                     <img src="/assets/images/icons/icon_phone.png" alt="" />
                   </p>
-                  <div className="bl-text-contact">
+                  <div className="bl-text-contact bl-text-common">
                     <p>Khách hàng muốn vay liên hệ:</p>
                     <p>
                       <span>0904876872</span>
@@ -68,11 +71,11 @@ function Contact() {
                     </p>
                   </div>
                 </div>
-                <div className="bl-item">
+                <div className="bl-item bl-item-right">
                   <p className="bl-img">
                     <img src="/assets/images/icons/icon_phone.png" alt="" />
                   </p>
-                  <div className="bl-text-contact">
+                  <div className="bl-text-contact bl-text-common">
                     <p>Đối tác muốn liên hệ:</p>
                     <p>
                       <span>0795079079 </span>

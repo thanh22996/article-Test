@@ -1,5 +1,6 @@
 import React from "react";
 import { dataProducts } from "../utils/constants";
+import { NavLink } from "react-router-dom";
 
 function Product(props) {
   return (
@@ -9,7 +10,9 @@ function Product(props) {
       </div>
       <div className="container">
         <div className="block-breakrum">
-          <span className="bl-main-br">Trang chủ</span>
+          <NavLink to="/">
+            <span className="bl-main-br">Trang chủ</span>
+          </NavLink>
           <span className="bl-main-br">
             <img src="/assets/images/icons/Arrow_cut.png" alt="icon" />
           </span>

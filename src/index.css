@@ -460,6 +460,42 @@ a {
   align-items: center;
 }
 
+.content-contact {
+  background: #ffffff;
+  box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 23px;
+  padding: 26px 32px;
+  margin-bottom: 35px;
+}
+
+.content-contact .bl-item {
+  padding-left: 20px;
+}
+
+.bl-item-right {
+  align-items: flex-start !important;
+}
+.bl-item-right .bl-text-contact p {
+  margin-bottom: 5px;
+}
+
+.bl-item-right .bl-text-contact {
+  margin-bottom: 16px;
+}
+
+.bl-text-common p:nth-child(1) {
+  font-weight: 600;
+}
+
+.bl-text-common span:nth-child(1) {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.line-right {
+  border-right: 1px solid #d7d7d7;
+}
+
 .page-contact .block-content .content-contact .bl-item .bl-text {
   display: flex;
 }

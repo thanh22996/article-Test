@@ -23,21 +23,35 @@ function BankUs(props) {
           <div className="image-slider">
             <img
               width="100%"
-              src="/assets/images/home/slide_top.png"
+              src="/assets/images/slider/banner_mirae.png"
               alt="slide"
             />
           </div>
           <div className="image-slider">
             <img
               width="100%"
-              src="/assets/images/home/slide_top.png"
+              src="/assets/images/slider/banner_SHB.png"
               alt="slide"
             />
           </div>
           <div className="image-slider">
             <img
               width="100%"
-              src="/assets/images/home/slide_top.png"
+              src="/assets/images/slider/banner_mcredit.png"
+              alt="slide"
+            />
+          </div>
+          <div className="image-slider">
+            <img
+              width="100%"
+              src="/assets/images/slider/banner_easy_credit.png"
+              alt="slide"
+            />
+          </div>
+          <div className="image-slider">
+            <img
+              width="100%"
+              src="/assets/images/slider/banner_ptf.png"
               alt="slide"
             />
           </div>

@@ -455,6 +455,19 @@ a {
   color: #f99d1b;
 }
 
+.page-contact .block-content .content-contact .bl-item {
+  display: flex;
+  align-items: center;
+}
+
+.page-contact .block-content .content-contact .bl-item .bl-text {
+  display: flex;
+}
+
+.page-contact .block-content .content-contact .bl-item .bl-img {
+  margin-right: 16px;
+}
+
 @media screen and (max-width: 767px) {
   .block-mission {
     margin-top: 20px;

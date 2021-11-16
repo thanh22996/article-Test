@@ -127,10 +127,10 @@ function BankUs(props) {
                       <div className="block-item-branch">
                         <img
                           width="100%"
-                          src="/assets/images/home/partner_mirae.png"
+                          src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
-                        <p>CHI NHÁNH TPHCM</p>
+                        <p className="branch-name">CHI NHÁNH TPHCM</p>
                       </div>
                     </div>
                   </div>
@@ -141,10 +141,10 @@ function BankUs(props) {
                       <div className="block-item-branch">
                         <img
                           width="100%"
-                          src="/assets/images/home/mcredit_partner.png"
+                          src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
-                        <p>CHI NHÁNH AN GIANG</p>
+                        <p className="branch-name">CHI NHÁNH AN GIANG</p>
                       </div>
                     </div>
                   </div>
@@ -155,10 +155,10 @@ function BankUs(props) {
                       <div className="block-item-branch">
                         <img
                           width="100%"
-                          src="/assets/images/home/partner_easy.png"
+                          src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
-                        <p>CHI NHÁNH HẬU GIANG</p>
+                        <p className="branch-name">CHI NHÁNH HẬU GIANG</p>
                       </div>
                     </div>
                   </div>

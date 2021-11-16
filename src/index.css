@@ -522,6 +522,11 @@ a {
   text-align: center;
 }
 
+.branch-name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 767px) {
   .block-mission {
     margin-top: 20px;

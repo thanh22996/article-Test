@@ -67,7 +67,7 @@ function Contact() {
                     <p>Khách hàng muốn vay liên hệ:</p>
                     <p>
                       <span>0904876872</span>
-                      <span>(Ms. Kiều)</span>
+                      <span>(Ms. Huynh Kieu)</span>
                     </p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ function Contact() {
                     <p>Đối tác muốn liên hệ:</p>
                     <p>
                       <span>0795079079 </span>
-                      <span>(Mr. Nguyễn Tấn Hồng Quang)</span>
+                      <span>(Mr. Nguyen Tan Hong Quang)</span>
                     </p>
                   </div>
                 </div>

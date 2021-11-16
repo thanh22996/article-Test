@@ -37,11 +37,11 @@ export function Footer() {
             </p>
             <p>
               <span className=" bl-right">Khách hàng muốn vay liên hệ:</span>
-              <span>0904876872 (Ms. Kiều)</span>
+              <span>0904876872 (Ms. Huynh Kieu)</span>
             </p>
             <p>
               <span className=" bl-right">Đối tác muốn liên hệ:</span>
-              <span>0795079079 (Mr. Quang)</span>
+              <span>0795079079 (Mr. Nguyen Tan Hong Quang)</span>
             </p>
             <p>
               <span className=" bl-right">Văn phòng:</span>

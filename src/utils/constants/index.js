@@ -4,8 +4,8 @@ const dataProducts = [
     title: "1. Vay tiền mặt từ",
     image: "/assets/images/products/mirae.png",
     name: "Mirae",
-    description:
-      "Mirae Asset Finance Việt Nam là thành viên của Tập đoàn Mirae Asset đến từ Hàn Quốc, với 20 năm kinh nghiệm trong lĩnh vực tài chính, đầu tư, quản lý tài sản…, đang có mặt tại 15 quốc gia, cùng hệ thống 200 văn phòng và chi nhánh trên toàn thế giới.",
+    description: `Giải pháp tài chính tối ưu cho khách hàng có thu nhập từ 4tr/tháng. Chỉ cần CMND đã có thể lên hồ sơ với khoản vay lên tới 70 triệu đồng.
+      Giải ngân nhanh chóng trong 24h qua tài khoản ngân hàng`,
     content:
       "Có mặt tại Việt Nam năm 2006, công ty được xây dựng dựa trên tầm nhìn luôn theo đuổi chiến lược quản lý đầu tư tối ưu, nhằm hỗ trợ khách hàng dễ dàng tiếp cận và có cơ hội nhận được nguồn vốn hiệu quả, hợp pháp và an toàn, Mirae Asset Việt Nam đã nỗ lực không ngừng để hoàn thiện các sản phẩm vay tiêu dùng.",
     phone: "0904 876 872",
@@ -27,7 +27,7 @@ const dataProducts = [
     image: "/assets/images/products/mcredit.png",
     name: "MCredit",
     description:
-      "Mcredit hướng tới trở thành một công ty tài chính tiêu dùng thuận tiện cho mọi người dân, được khách hàng ưu tiên lựa chọn các sản phẩm dịch vụ tài chính tiêu dùng đa dạng, đáp ứng nhu cầu của khách hàng có thu nhập khiêm tốn từ thành thị tới nông thôn. ",
+      "Cần vay được ngay, khoản vay lên tới 50 triệu đồng cho mọi đối tượng khách hàng. Chỉ cần CMND, giải ngân nhanh trong 12h qua tài khoản ngân hàn",
     content:
       "Các sản phẩm chính của Mcredit là: Cho vay tiền mặt và Cho vay trả góp, với lợi thế sản phẩm vượt trội, thủ tục xét duyệt nhanh gọn, dịch vụ chăm sóc hậu mãi tận tâm, lãi suất cạnh tranh và mạng lưới rộng khắp giúp Mcredit nhanh chóng tiếp cận tới đông đảo khách hàng trong thời gian ngắn.",
     phone: "0904 876 872",

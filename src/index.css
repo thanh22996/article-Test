@@ -120,12 +120,11 @@ body {
 }
 
 .wrapper-introduce {
-  background-image: url("img/home/bg_gioithieu.png");
+  background-image: url("img/home/bg-intro.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #35190c17;
 }
 
 .block-page-bankus .title-name {
@@ -218,11 +217,11 @@ body {
 }
 
 .block-page-bankus .block-projects-list {
-  background-image: url("img/home/bg_tamnhin.png");
+  background-image: url("img/home/projects_bankus.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .block-page-bankus .block-projects-list .block-projects .block-item-project {
@@ -275,6 +274,7 @@ body {
   font-size: 24px;
   color: #f99d1b;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .block-page-bankus .block-partner-list {
@@ -507,5 +507,29 @@ a {
 @media screen and (max-width: 767px) {
   .block-mission {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .block-page-bankus .title-name {
+    font-size: 30px;
+  }
+
+  .block-page-bankus .block-projects-list .block-projects .block-item-project {
+    margin: 0 16px;
+  }
+
+  .block-page-bankus
+    .block-projects-list
+    .block-projects
+    .block-item-project
+    .content-project
+    .content-top
+    p:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .block-page-bankus .title-name::before {
+    top: 50px;
   }
 }

@@ -16,6 +16,43 @@ function BankUs(props) {
     autoplaySpeed: 3000,
     cssEase: "linear",
   };
+
+  const settingsPartner = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 5000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="block-page-bankus">
       <div className="block-slide">
@@ -124,7 +161,7 @@ function BankUs(props) {
                   <div className="content-project">
                     <div className="content-top">
                       <div className="content-left">
-                        <p>Vay tiền mặt từ</p>
+                        <p className="mb-0">Giải pháp tài chính</p>
                         <p>MIRAE ASSET</p>
                       </div>
                       <div className="content-right">
@@ -150,7 +187,7 @@ function BankUs(props) {
                   <div className="content-project">
                     <div className="content-top">
                       <div className="content-left">
-                        <p>Vay tiền mặt từ</p>
+                        <p className="mb-0">Giải pháp tài chính</p>
                         <p>SHB FINANCE</p>
                       </div>
                       <div className="content-right">
@@ -176,7 +213,7 @@ function BankUs(props) {
                   <div className="content-project">
                     <div className="content-top">
                       <div className="content-left">
-                        <p>Vay tiền mặt từ</p>
+                        <p className="mb-0">Giải pháp tài chính</p>
                         <p>MCREDIT</p>
                       </div>
                       <div className="content-right">
@@ -202,7 +239,7 @@ function BankUs(props) {
                   <div className="content-project">
                     <div className="content-top">
                       <div className="content-left">
-                        <p>Vay tiền mặt từ</p>
+                        <p className="mb-0">Giải pháp tài chính</p>
                         <p>EASY CREDIT</p>
                       </div>
                       <div className="content-right">
@@ -230,7 +267,7 @@ function BankUs(props) {
                   <div className="content-project">
                     <div className="content-top">
                       <div className="content-left">
-                        <p>Vay tiền mặt từ</p>
+                        <p className="mb-0">Giải pháp tài chính</p>
                         <p>PTF VIETNAM</p>
                       </div>
                       <div className="content-right">
@@ -255,7 +292,54 @@ function BankUs(props) {
         <div className="block-partner-list">
           <div className="container">
             <div className="row block-partner">
-              <div className="col-md-4">
+              <Slider {...settingsPartner}>
+                <div>
+                  <div className="block-item-partner">
+                    <img
+                      width="33%"
+                      src="/assets/images/home/partner_mirae.png"
+                      alt="bank"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="block-item-partner">
+                    <img
+                      width="33%"
+                      src="/assets/images/home/mcredit_partner.png"
+                      alt="bank"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="block-item-partner">
+                    <img
+                      width="33%"
+                      src="/assets/images/home/partner_easy.png"
+                      alt="bank"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="block-item-partner">
+                    <img
+                      width="33%"
+                      src="/assets/images/home/partner_ptf.png"
+                      alt="bank"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className="block-item-partner">
+                    <img
+                      width="33%"
+                      src="/assets/images/home/partner_shb.png"
+                      alt="bank"
+                    />
+                  </div>
+                </div>
+              </Slider>
+              {/* <div className="col-md-4">
                 <div className="block-item-partner">
                   <img src="/assets/images/home/partner_mirae.png" alt="bank" />
                 </div>
@@ -282,7 +366,7 @@ function BankUs(props) {
                 <div className="block-item-partner">
                   <img src="/assets/images/home/partner_ptf.png" alt="bank" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

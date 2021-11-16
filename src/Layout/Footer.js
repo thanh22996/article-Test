@@ -56,7 +56,7 @@ export function Footer() {
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                title="BankUs"
+                title="Bankus"
               />
             </div>
           </div>

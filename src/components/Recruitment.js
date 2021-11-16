@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import ModelRecruitment from "../common/ModelRecruitment";
+import { dataRecruitment } from "../utils/constants";
 
 function Recruitment(props) {
+  const [show, setShow] = useState(false);
+  const [dataRecruit, setDataRecruit] = useState({});
+  const handleClose = (value) => {
+    setDataRecruit(value);
+    setShow(!show);
+  };
+
   return (
     <div className="page-recruitment">
       <div className="top-header">
@@ -30,7 +39,38 @@ function Recruitment(props) {
       <div className="block-content">
         <div className="container">
           <div className="row wrapper-recruitment">
-            <div className="col-md-4">
+            {dataRecruitment &&
+              dataRecruitment.map((value, key) => {
+                return (
+                  <div className="col-md-4" key={key}>
+                    <div className="block-recruitment">
+                      <div className="img-recruitment">
+                        <img
+                          width="100%"
+                          src="/assets/images/recruitment/img_top.png"
+                          alt="picHead"
+                        />
+                      </div>
+                      <div className="content-recruitment">
+                        <p className="bl-title-recruitment">Tuyển dụng</p>
+                        <p className="bl-name">{value.name}</p>
+                        <ul className="bl-description">
+                          {value.description.map((v, k) => {
+                            return <li key={k}>{v}</li>;
+                          })}
+                        </ul>
+                        <p
+                          className="bl-read-more"
+                          onClick={() => handleClose(value)}
+                        >
+                          Tìm hiểu công việc
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            {/* <div className="col-md-4">
               <div className="block-recruitment">
                 <div className="img-recruitment">
                   <img
@@ -42,41 +82,30 @@ function Recruitment(props) {
                 <div className="content-recruitment">
                   <p className="bl-title-recruitment">Tuyển dụng</p>
                   <p className="bl-name">Nhân viên kinh doanh</p>
-                  <p className="bl-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque molestie lorem euconsequat gravida. Nunc mattis et
-                    erat eu sagittis. Fusce in arcu ullamcorper, fermentum nulla
-                    et, pretium ipsum.
+                  <ul className="bl-description">
+                    <li>Nhận đề xuất tuyển dụng từ cấp trên.</li>
+                    <li>
+                      Hỗ trợ công tác tuyển dụng (sàng lọc hồ sơ, hẹn và sắp xếp
+                      lịch phỏng vấn)
+                    </li>
+                    <li>
+                      Báo cáo tuyển dụng hàng ngày, hàng tuần và hàng tháng
+                    </li>
+                  </ul>
+                  <p className="bl-read-more" onClick={handleClose}>
+                    Tìm hiểu công việc
                   </p>
-                  <p className="bl-read-more">Tìm hiểu công việc</p>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4">
-              <div className="block-recruitment">
-                <div className="img-recruitment">
-                  <img
-                    width="100%"
-                    src="/assets/images/recruitment/img_top.png"
-                    alt="picHead"
-                  />
-                </div>
-                <div className="content-recruitment">
-                  <p className="bl-title-recruitment">Tuyển dụng</p>
-                  <p className="bl-name">Nhân viên kinh doanh</p>
-                  <p className="bl-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Quisque molestie lorem euconsequat gravida. Nunc mattis et
-                    erat eu sagittis. Fusce in arcu ullamcorper, fermentum nulla
-                    et, pretium ipsum.
-                  </p>
-                  <p className="bl-read-more">Tìm hiểu công việc</p>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
+      <ModelRecruitment
+        show={show}
+        handleClose={handleClose}
+        dataRecruit={dataRecruit}
+      />
     </div>
   );
 }

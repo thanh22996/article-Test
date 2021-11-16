@@ -175,6 +175,7 @@ body {
   box-shadow: 0px 11px 28px #00000050;
   border-radius: 27px;
   height: 100%;
+  margin: auto;
 }
 .block-page-bankus .block-vision-mission .block-vision {
   max-width: 510px;
@@ -185,6 +186,7 @@ body {
   box-shadow: 0px 11px 28px #00000050;
   border-radius: 27px;
   height: 100%;
+  margin: auto;
 }
 
 .block-page-bankus .block-vision-mission .block-mission .title {
@@ -432,10 +434,15 @@ a {
 }
 
 .page-recruitment .content-recruitment {
+  padding: 32px;
+}
+
+.block-recruitment {
   background: #ffffff;
   box-shadow: 0px 8px 33px 12px rgba(255, 180, 97, 0.1);
   border-radius: 15px;
-  padding: 32px;
+  height: 100%;
+  margin: 0 16px;
 }
 
 .page-recruitment .block-content {
@@ -447,15 +454,22 @@ a {
 }
 
 .wrapper-recruitment .bl-name {
-  font-size: 24px;
+  font-size: 18px;
   color: #f99d1b;
   font-weight: 700;
+}
+
+.wrapper-recruitment .bl-title-recruitment {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .wrapper-recruitment .bl-description {
   font-size: 15px;
   color: #5e5e5e;
   font-weight: 400;
+  padding-left: 16px;
 }
 
 .wrapper-recruitment .bl-read-more {
@@ -506,6 +520,27 @@ a {
   z-index: 2;
 }
 
+.model-recruitment .modal-dialog {
+  position: relative;
+}
+
+.model-recruitment .modal-dialog .modal-content {
+  border-radius: 20px;
+  border: none;
+  padding-bottom: 30px;
+}
+
+.model-recruitment .modal-body {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.model-recruitment .icon-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
 .bl-text-common span:nth-child(1) {
   font-weight: 600;
   margin-right: 10px;
@@ -530,6 +565,27 @@ a {
 .branch-name {
   font-size: 22px;
   font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #808080;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #808080;
 }
 
 @media screen and (max-width: 767px) {

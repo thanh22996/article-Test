@@ -13,61 +13,65 @@ function Header(props) {
     setStateActive(active);
   };
   return (
-    <div className="block-header">
-      <div className="block-menu">
-        <Navbar className="block-nav" expand="lg">
-          <Container fluid>
-            <Navbar.Brand href="/">
-              <img
-                width="165px"
-                src="/assets/images/home/logo_bankus.png"
-                alt="logo"
+    <div collapseOnSelect className="block-header">
+      <div className="container">
+        <div className="block-menu">
+          <Navbar collapseOnSelect className="block-nav" expand="lg">
+            <Container>
+              <Navbar.Brand href="/">
+                <img
+                  width="165px"
+                  src="/assets/images/home/logo_bankus.png"
+                  alt="logo"
+                />
+              </Navbar.Brand>
+              <Navbar.Toggle
+                className="btn-toggle-custom"
+                aria-controls="responsive-navbar-nav"
               />
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
-            <Navbar.Collapse id="navbarScroll">
-              <Nav
-                className="me-auto my-2 my-lg-0 block-list-menu"
-                style={{ maxHeight: "100px" }}
-                navbarScroll
-                defaultActiveKey=""
-              >
-                <NavLink to="/">
-                  <span
-                    className={stateActive === "" ? "active" : ""}
-                    onClick={() => handleActive("")}
-                  >
-                    TRANG CHỦ
-                  </span>
-                </NavLink>
-                <NavLink to="/products">
-                  <span
-                    className={stateActive === "products" ? "active" : ""}
-                    onClick={() => handleActive("products")}
-                  >
-                    SẢN PHẨM
-                  </span>
-                </NavLink>
-                <NavLink to="/recruitment">
-                  <span
-                    className={stateActive === "recruitment" ? "active" : ""}
-                    onClick={(e) => handleActive("recruitment")}
-                  >
-                    TUYỂN DỤNG
-                  </span>
-                </NavLink>
-                <NavLink to="/contact">
-                  <span
-                    className={stateActive === "contact" ? "active" : ""}
-                    onClick={(e) => handleActive("contact")}
-                  >
-                    LIÊN HỆ
-                  </span>
-                </NavLink>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav
+                  className="me-auto block-list-menu"
+                  navbarScroll
+                  defaultActiveKey=""
+                >
+                  <NavLink to="/">
+                    <span
+                      className={stateActive === "" ? "active" : ""}
+                      onClick={() => handleActive("")}
+                    >
+                      TRANG CHỦ
+                    </span>
+                  </NavLink>
+                  <NavLink to="/products">
+                    <span
+                      className={stateActive === "products" ? "active" : ""}
+                      onClick={() => handleActive("products")}
+                    >
+                      SẢN PHẨM
+                    </span>
+                  </NavLink>
+                  <NavLink to="/recruitment">
+                    <span
+                      className={stateActive === "recruitment" ? "active" : ""}
+                      onClick={(e) => handleActive("recruitment")}
+                    >
+                      TUYỂN DỤNG
+                    </span>
+                  </NavLink>
+                  <NavLink to="/contact">
+                    <span
+                      className={stateActive === "contact" ? "active" : ""}
+                      onClick={(e) => handleActive("contact")}
+                    >
+                      LIÊN HỆ
+                    </span>
+                  </NavLink>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+        </div>
       </div>
     </div>
   );

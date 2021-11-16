@@ -126,7 +126,7 @@ function BankUs(props) {
                     <div>
                       <div className="block-item-branch">
                         <img
-                          width="100%"
+                          width="60%"
                           src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
@@ -140,7 +140,7 @@ function BankUs(props) {
                     <div>
                       <div className="block-item-branch">
                         <img
-                          width="100%"
+                          width="60%"
                           src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
@@ -154,7 +154,7 @@ function BankUs(props) {
                     <div>
                       <div className="block-item-branch">
                         <img
-                          width="100%"
+                          width="60%"
                           src="/assets/images/home/branch-bankus.png"
                           alt="bank"
                         />
@@ -241,14 +241,14 @@ function BankUs(props) {
                   <div className="block-item-project">
                     <img
                       width="100%"
-                      src="/assets/images/home/shb.png"
+                      src="/assets/images/home/ptf.png"
                       alt="bank"
                     />
                     <div className="content-project">
                       <div className="content-top">
                         <div className="content-left">
                           <p className="mb-0">Giải pháp tài chính</p>
-                          <p>SHB FINANCE</p>
+                          <p>PTF VIETNAM</p>
                         </div>
                         <div className="content-right">
                           <img
@@ -258,41 +258,13 @@ function BankUs(props) {
                         </div>
                       </div>
                       <div className="content-bottom">
-                        <p>cứu nguy thần tốc khi lương chưa về</p>
+                        <p>Điểm tựa khi cần</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </Fade>
               <Fade right>
-                <div className="col-md-4 mt-4">
-                  <div className="block-item-project">
-                    <img
-                      width="100%"
-                      src="/assets/images/home/mcredit.png"
-                      alt="bank"
-                    />
-                    <div className="content-project">
-                      <div className="content-top">
-                        <div className="content-left">
-                          <p className="mb-0">Giải pháp tài chính</p>
-                          <p>MCREDIT</p>
-                        </div>
-                        <div className="content-right">
-                          <img
-                            src="/assets/images/icons/icon_read_more.png"
-                            alt="icon"
-                          />
-                        </div>
-                      </div>
-                      <div className="content-bottom">
-                        <p>Cần vay, được ngay, ngại gì covid</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Fade>
-              <Fade left>
                 <div className="col-md-4 mt-4">
                   <div className="block-item-project">
                     <img
@@ -323,19 +295,19 @@ function BankUs(props) {
                   </div>
                 </div>
               </Fade>
-              <Fade right>
+              <Fade left>
                 <div className="col-md-4 mt-4">
                   <div className="block-item-project">
                     <img
                       width="100%"
-                      src="/assets/images/home/ptf.png"
+                      src="/assets/images/home/mcredit.png"
                       alt="bank"
                     />
                     <div className="content-project">
                       <div className="content-top">
                         <div className="content-left">
                           <p className="mb-0">Giải pháp tài chính</p>
-                          <p>PTF VIETNAM</p>
+                          <p>MCREDIT</p>
                         </div>
                         <div className="content-right">
                           <img
@@ -345,7 +317,35 @@ function BankUs(props) {
                         </div>
                       </div>
                       <div className="content-bottom">
-                        <p>Điểm tựa khi cần</p>
+                        <p>Cần vay, được ngay, ngại gì covid</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Fade>
+              <Fade right>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/shb.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>SHB FINANCE</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
+                      </div>
+                      <div className="content-bottom">
+                        <p>cứu nguy thần tốc khi lương chưa về</p>
                       </div>
                     </div>
                   </div>

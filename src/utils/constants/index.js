@@ -11,14 +11,13 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
-    id: "SHBFinance",
-    title: "2. Giải pháp tài chính",
-    image: "/assets/images/products/shb.png",
-    name: "SHB Finance",
-    description: `Nguồn cứu nguy khi lương chưa về dành cho khách hàng có thu nhập từ 4 triệu đồng.
-      Phê duyệt khoản vay lên tới 70 triệu, giải ngân ngay trong 24h qua tài khoản ngân hàng`,
+    id: "PTFVietNam",
+    title: "5. Giải pháp tài chính",
+    image: "/assets/images/products/ptf.png",
+    name: "PTF VietNam",
+    description: `Giải pháp tài chính dành cho mọi khách hàng, với hồ sơ đơn giản - chỉ cần CMND/SHK, giải ngân ngay khoản vay lên tới 50 triệu trong 12h sau khi đăng kí`,
     content:
-      "SHB Finance hướng tới trở thành một trong các công ty tài chính tiên phong ứng dụng công nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp thiết, đồng thời nâng cao chất lượng dịch vụ và sự tiện ích cho khách hàng.",
+      "Các sản phẩm chính của Mcredit là: Cho vay tiền mặt và Cho vay trả góp, với lợi thế sản phẩm vượt trội, thủ tục xét duyệt nhanh gọn, dịch vụ chăm sóc hậu mãi tận tâm, lãi suất cạnh tranh và mạng lưới rộng khắp giúp Mcredit nhanh chóng tiếp cận tới đông đảo khách hàng trong thời gian ngắn.",
     phone: "0904 876 872",
   },
   {
@@ -44,13 +43,14 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
-    id: "PTFVietNam",
-    title: "5. Giải pháp tài chính",
-    image: "/assets/images/products/ptf.png",
-    name: "PTF VietNam",
-    description: `Giải pháp tài chính dành cho mọi khách hàng, với hồ sơ đơn giản - chỉ cần CMND/SHK, giải ngân ngay khoản vay lên tới 50 triệu trong 12h sau khi đăng kí`,
+    id: "SHBFinance",
+    title: "2. Giải pháp tài chính",
+    image: "/assets/images/products/shb.png",
+    name: "SHB Finance",
+    description: `Nguồn cứu nguy khi lương chưa về dành cho khách hàng có thu nhập từ 4 triệu đồng.
+      Phê duyệt khoản vay lên tới 70 triệu, giải ngân ngay trong 24h qua tài khoản ngân hàng`,
     content:
-      "Các sản phẩm chính của Mcredit là: Cho vay tiền mặt và Cho vay trả góp, với lợi thế sản phẩm vượt trội, thủ tục xét duyệt nhanh gọn, dịch vụ chăm sóc hậu mãi tận tâm, lãi suất cạnh tranh và mạng lưới rộng khắp giúp Mcredit nhanh chóng tiếp cận tới đông đảo khách hàng trong thời gian ngắn.",
+      "SHB Finance hướng tới trở thành một trong các công ty tài chính tiên phong ứng dụng công nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp thiết, đồng thời nâng cao chất lượng dịch vụ và sự tiện ích cho khách hàng.",
     phone: "0904 876 872",
   },
 ];

@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -19,7 +19,7 @@ html {
   font-weight: normal;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .block-header {
@@ -394,10 +394,6 @@ a {
   color: #f99d1b;
   font-weight: 700;
 }
-.page-products .block-product .block-item .bl-content p:nth-child(3) {
-  font-size: 15px;
-  font-weight: 500;
-}
 
 .phone-readmore {
   justify-content: space-between;
@@ -433,10 +429,11 @@ a {
   align-items: center;
 }
 
-.page-products .block-product .block-item .bl-content p:nth-child(3) {
+.bl-description-prod {
   font-size: 15px;
   color: #000;
   margin-bottom: 16px;
+  font-weight: 500;
 }
 
 .page-recruitment .top-title-name {
@@ -488,6 +485,7 @@ a {
   text-align: right;
   text-decoration: underline;
   color: #f99d1b;
+  cursor: pointer;
 }
 
 .page-contact .block-content .content-contact .bl-item {

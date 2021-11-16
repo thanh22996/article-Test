@@ -1,8 +1,15 @@
 import React from "react";
 import { dataProducts } from "../utils/constants";
 import { NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addProductStore } from "../redux/actions";
 
 function Product(props) {
+  const dispatch = useDispatch();
+
+  const handleLinkDetail = (value) => {
+    dispatch(addProductStore(value));
+  };
   return (
     <div className="page-products">
       <div className="top-header">
@@ -36,7 +43,15 @@ function Product(props) {
                       <div className="bl-content">
                         <p className="mb-0">{value.title}</p>
                         <p className="mb-1">{value.name}</p>
-                        <p>{value.description}</p>
+                        <ul>
+                          {value.description.map((v, k) => {
+                            return (
+                              <li className="bl-description-prod mb-2" key={k}>
+                                {v}
+                              </li>
+                            );
+                          })}
+                        </ul>
                         <div className="phone-readmore d-flex">
                           <div className="block-left">
                             <img
@@ -45,15 +60,20 @@ function Product(props) {
                             />
                             <span>{value.phone}</span>
                           </div>
-                          <div className="block-right">
-                            <span>Xem thêm</span>
-                            <span>
-                              <img
-                                src="/assets/images/icons/read-more.png"
-                                alt="icon"
-                              />
-                            </span>
-                          </div>
+                          <NavLink to="/detail-product">
+                            <div
+                              className="block-right"
+                              onClick={() => handleLinkDetail(value)}
+                            >
+                              <span>Xem thêm</span>
+                              <span>
+                                <img
+                                  src="/assets/images/icons/read-more.png"
+                                  alt="icon"
+                                />
+                              </span>
+                            </div>
+                          </NavLink>
                         </div>
                       </div>
                     </div>

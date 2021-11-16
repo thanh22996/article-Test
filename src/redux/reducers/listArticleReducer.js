@@ -1,16 +1,14 @@
 import * as types from "../types";
 
 const initState = {
-  listArticle: [],
+  dataProduct: [],
   length: [],
 };
 
 export default function ListArticles(state = initState, { type, payload }) {
   switch (type) {
-    case types.GET_LIST_ARTICLE:
-      return { ...state, listArticle: payload };
-    case types.GET_lENGTH_ARTICLE_SUCCESS:
-      return { ...state, length: payload };
+    case types.ADD_PRODUCT_REDUCER:
+      return { ...state, dataProduct: payload };
     default:
       return state;
   }

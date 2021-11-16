@@ -5,8 +5,6 @@ function* rootSagas() {
   yield all([
     /** travelook */
     fork(listSaga.getListArticle),
-    fork(listSaga.getDetailArticle),
-    fork(listSaga.getLengthArticle),
   ]);
 }
 

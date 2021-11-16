@@ -1,6 +1,7 @@
 import { Switch, Route, useLocation } from "react-router-dom";
 import BankUs from "./components/BankUs";
 import Contact from "./components/Contact";
+import DetailProduct from "./components/DetailProduct";
 import Product from "./components/Product";
 import Recruitment from "./components/Recruitment";
 import MasterLayout from "./Layout/MasterLayout";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/products" component={Product} />
           <Route path="/recruitment" component={Recruitment} />
           <Route path="/contact" component={Contact} />
+          <Route path="/detail-product" component={DetailProduct} />
         </Switch>
       </MasterLayout>
     </div>

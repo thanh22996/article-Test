@@ -116,32 +116,89 @@ function BankUs(props) {
         </div>
       </Fade>
       <Fade bottom>
+        <p className="title-name mb-3 text-center mt-5">CÁC CHI NHÁNH BANKUS</p>
+        <div className="wrapper-branch">
+          <div className="block-branch">
+            <div className="container">
+              <div className="row">
+                <Fade left>
+                  <div className="col-md-4">
+                    <div>
+                      <div className="block-item-branch">
+                        <img
+                          width="100%"
+                          src="/assets/images/home/partner_mirae.png"
+                          alt="bank"
+                        />
+                        <p>CHI NHÁNH TPHCM</p>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+                <Fade bottom>
+                  <div className="col-md-4">
+                    <div>
+                      <div className="block-item-branch">
+                        <img
+                          width="100%"
+                          src="/assets/images/home/mcredit_partner.png"
+                          alt="bank"
+                        />
+                        <p>CHI NHÁNH AN GIANG</p>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+                <Fade right>
+                  <div className="col-md-4">
+                    <div>
+                      <div className="block-item-branch">
+                        <img
+                          width="100%"
+                          src="/assets/images/home/partner_easy.png"
+                          alt="bank"
+                        />
+                        <p>CHI NHÁNH HẬU GIANG</p>
+                      </div>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Fade>
+      <Fade bottom>
         <p className="title-name mb-3 text-center mt-5">TẦM NHÌN - SỨ MỆNH</p>
         <div className="block-vision-mission">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
-                <div className="block-vision">
-                  <p className="title">Tầm nhìn</p>
-                  <p className="content-vision">
-                    Để mỗi người dân Việt Nam có cơ hội nâng cao chất lượng cuộc
-                    sống nhờ các gói vay tiêu dùng nhanh chóng, tin cậy và minh
-                    bạch là mong muốn lớn nhất của chúng tôi.
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="block-mission">
-                  <p className="title">Sứ mệnh</p>
-                  <div className="content-mission">
-                    <p>CHÚNG TÔI CAM KẾT VỚI SỨ MỆNH: </p>
-                    <p>
-                      “Cung cấp các giải pháp Tài chính tiêu dùng thông minh, dễ
-                      tiếp cận cho mọi người dân Việt”
+              <Fade left>
+                <div className="col-md-6">
+                  <div className="block-vision">
+                    <p className="title">Tầm nhìn</p>
+                    <p className="content-vision">
+                      Để mỗi người dân Việt Nam có cơ hội nâng cao chất lượng
+                      cuộc sống nhờ các gói vay tiêu dùng nhanh chóng, tin cậy
+                      và minh bạch là mong muốn lớn nhất của chúng tôi.
                     </p>
                   </div>
                 </div>
-              </div>
+              </Fade>
+              <Fade right>
+                <div className="col-md-6">
+                  <div className="block-mission">
+                    <p className="title">Sứ mệnh</p>
+                    <div className="content-mission">
+                      <p>CHÚNG TÔI CAM KẾT VỚI SỨ MỆNH: </p>
+                      <p>
+                        “Cung cấp các giải pháp Tài chính tiêu dùng thông minh,
+                        dễ tiếp cận cho mọi người dân Việt”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Fade>
             </div>
           </div>
         </div>
@@ -151,138 +208,149 @@ function BankUs(props) {
         <div className="block-projects-list">
           <div className="container">
             <div className="row block-projects">
-              <div className="col-md-4 mt-4">
-                <div className="block-item-project">
-                  <img
-                    width="100%"
-                    src="/assets/images/home/mirae.png"
-                    alt="bank"
-                  />
-                  <div className="content-project">
-                    <div className="content-top">
-                      <div className="content-left">
-                        <p className="mb-0">Giải pháp tài chính</p>
-                        <p>MIRAE ASSET</p>
+              <Fade left>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/mirae.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>MIRAE ASSET</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
                       </div>
-                      <div className="content-right">
-                        <img
-                          src="/assets/images/icons/icon_read_more.png"
-                          alt="icon"
-                        />
+                      <div className="content-bottom">
+                        <p>giải pháp tài chính tối ưu</p>
                       </div>
-                    </div>
-                    <div className="content-bottom">
-                      <p>giải pháp tài chính tối ưu</p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mt-4">
-                <div className="block-item-project">
-                  <img
-                    width="100%"
-                    src="/assets/images/home/shb.png"
-                    alt="bank"
-                  />
-                  <div className="content-project">
-                    <div className="content-top">
-                      <div className="content-left">
-                        <p className="mb-0">Giải pháp tài chính</p>
-                        <p>SHB FINANCE</p>
+              </Fade>
+              <Fade bottom>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/shb.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>SHB FINANCE</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
                       </div>
-                      <div className="content-right">
-                        <img
-                          src="/assets/images/icons/icon_read_more.png"
-                          alt="icon"
-                        />
+                      <div className="content-bottom">
+                        <p>cứu nguy thần tốc khi lương chưa về</p>
                       </div>
-                    </div>
-                    <div className="content-bottom">
-                      <p>cứu nguy thần tốc khi lương chưa về</p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mt-4">
-                <div className="block-item-project">
-                  <img
-                    width="100%"
-                    src="/assets/images/home/mcredit.png"
-                    alt="bank"
-                  />
-                  <div className="content-project">
-                    <div className="content-top">
-                      <div className="content-left">
-                        <p className="mb-0">Giải pháp tài chính</p>
-                        <p>MCREDIT</p>
+              </Fade>
+              <Fade right>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/mcredit.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>MCREDIT</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
                       </div>
-                      <div className="content-right">
-                        <img
-                          src="/assets/images/icons/icon_read_more.png"
-                          alt="icon"
-                        />
+                      <div className="content-bottom">
+                        <p>Cần vay, được ngay, ngại gì covid</p>
                       </div>
-                    </div>
-                    <div className="content-bottom">
-                      <p>Cần vay, được ngay, ngại gì covid</p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mt-4">
-                <div className="block-item-project">
-                  <img
-                    width="100%"
-                    src="/assets/images/home/easycredit.png"
-                    alt="bank"
-                  />
-                  <div className="content-project">
-                    <div className="content-top">
-                      <div className="content-left">
-                        <p className="mb-0">Giải pháp tài chính</p>
-                        <p>EASY CREDIT</p>
+              </Fade>
+              <Fade left>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/easycredit.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>EASY CREDIT</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
                       </div>
-                      <div className="content-right">
-                        <img
-                          src="/assets/images/icons/icon_read_more.png"
-                          alt="icon"
-                        />
+                      <div className="content-bottom">
+                        <p>
+                          Cần tiền có liền. Trăm sự thuận tiện. Cuộc sống an
+                          nhiên
+                        </p>
                       </div>
-                    </div>
-                    <div className="content-bottom">
-                      <p>
-                        Cần tiền có liền. Trăm sự thuận tiện. Cuộc sống an nhiên
-                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 mt-4">
-                <div className="block-item-project">
-                  <img
-                    width="100%"
-                    src="/assets/images/home/ptf.png"
-                    alt="bank"
-                  />
-                  <div className="content-project">
-                    <div className="content-top">
-                      <div className="content-left">
-                        <p className="mb-0">Giải pháp tài chính</p>
-                        <p>PTF VIETNAM</p>
+              </Fade>
+              <Fade right>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
+                      src="/assets/images/home/ptf.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>PTF VIETNAM</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
                       </div>
-                      <div className="content-right">
-                        <img
-                          src="/assets/images/icons/icon_read_more.png"
-                          alt="icon"
-                        />
+                      <div className="content-bottom">
+                        <p>Điểm tựa khi cần</p>
                       </div>
-                    </div>
-                    <div className="content-bottom">
-                      <p>Điểm tựa khi cần</p>
                     </div>
                   </div>
                 </div>
-              </div>
+              </Fade>
             </div>
           </div>
         </div>
@@ -296,7 +364,6 @@ function BankUs(props) {
                 <div>
                   <div className="block-item-partner">
                     <img
-                      width="33%"
                       src="/assets/images/home/partner_mirae.png"
                       alt="bank"
                     />
@@ -305,7 +372,6 @@ function BankUs(props) {
                 <div>
                   <div className="block-item-partner">
                     <img
-                      width="33%"
                       src="/assets/images/home/mcredit_partner.png"
                       alt="bank"
                     />
@@ -314,7 +380,6 @@ function BankUs(props) {
                 <div>
                   <div className="block-item-partner">
                     <img
-                      width="33%"
                       src="/assets/images/home/partner_easy.png"
                       alt="bank"
                     />
@@ -322,20 +387,12 @@ function BankUs(props) {
                 </div>
                 <div>
                   <div className="block-item-partner">
-                    <img
-                      width="33%"
-                      src="/assets/images/home/partner_ptf.png"
-                      alt="bank"
-                    />
+                    <img src="/assets/images/home/partner_ptf.png" alt="bank" />
                   </div>
                 </div>
                 <div>
                   <div className="block-item-partner">
-                    <img
-                      width="33%"
-                      src="/assets/images/home/partner_shb.png"
-                      alt="bank"
-                    />
+                    <img src="/assets/images/home/partner_shb.png" alt="bank" />
                   </div>
                 </div>
               </Slider>

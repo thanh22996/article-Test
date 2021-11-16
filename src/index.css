@@ -69,6 +69,10 @@ body {
 .block-footer .block-map {
   border-radius: 15px;
   overflow: hidden;
+  height: 100%;
+}
+.block-map iframe {
+  height: 100%;
 }
 
 .block-list-menu {
@@ -487,6 +491,16 @@ a {
   font-weight: 600;
 }
 
+.block-partner .slick-next {
+  right: -25px !important;
+  z-index: 2;
+}
+
+.block-partner .slick-prev {
+  left: -25px !important;
+  z-index: 2;
+}
+
 .bl-text-common span:nth-child(1) {
   font-weight: 600;
   margin-right: 10px;
@@ -504,13 +518,17 @@ a {
   margin-right: 16px;
 }
 
+.block-item-branch {
+  text-align: center;
+}
+
 @media screen and (max-width: 767px) {
   .block-mission {
     margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1400px) {
   .block-page-bankus .title-name {
     font-size: 30px;
   }

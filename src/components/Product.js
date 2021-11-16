@@ -27,15 +27,15 @@ function Product(props) {
               return (
                 <div className="block-item" key={key}>
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-3">
                       <div className="bl-image">
                         <img width="100%" src={value.image} alt="pt" />
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-9">
                       <div className="bl-content">
-                        <p>{value.title}</p>
-                        <p>{value.name}</p>
+                        <p className="mb-0">{value.title}</p>
+                        <p className="mb-1">{value.name}</p>
                         <p>{value.description}</p>
                         <div className="phone-readmore d-flex">
                           <div className="block-left">

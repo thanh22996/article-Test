@@ -1,7 +1,7 @@
 const dataProducts = [
   {
     id: "mirea",
-    title: "1. Vay tiền mặt từ",
+    title: "1. Giải pháp tài chính",
     image: "/assets/images/products/mirae.png",
     name: "Mirae",
     description: `Giải pháp tài chính tối ưu cho khách hàng có thu nhập từ 4tr/tháng. Chỉ cần CMND đã có thể lên hồ sơ với khoản vay lên tới 70 triệu đồng.
@@ -12,18 +12,19 @@ const dataProducts = [
   },
   {
     id: "SHBFinance",
-    title: "2. vay tiền mặt từ",
+    title: "2. Giải pháp tài chính",
     image: "/assets/images/products/shb.png",
     name: "SHB Finance",
     description:
-      "SHB Finance hiện có mạng lưới dịch vụ bao phủ 46 tỉnh thành phố trọng điểm, tập trung cung cấp dịch vụ cho vay tiêu dùng cho các nhóm khách hàng đại chúng với mức thu nhập trung bình từ 3 triệu đồng như CBNV, công nhân, người kinh doanh nhỏ lẻ và các khách hàng khác có thể cung cấp các hóa đơn dịch vụ. Các khoản vay nhằm phục vụ nhu cầu thiết yếu của đông đảo người dân có thu nhập khiêm tốn, hiện đang chiếm tới gần 50% nhu cầu vay tiêu dùng nói chung.",
+      `Nguồn cứu nguy khi lương chưa về dành cho khách hàng có thu nhập từ 4 triệu đồng.
+      Phê duyệt khoản vay lên tới 70 triệu, giải ngân ngay trong 24h qua tài khoản ngân hàng`,
     content:
       "SHB Finance hướng tới trở thành một trong các công ty tài chính tiên phong ứng dụng công nghệ để nhanh chóng đáp ứng nhu cầu tài chính cấp thiết, đồng thời nâng cao chất lượng dịch vụ và sự tiện ích cho khách hàng.",
     phone: "0904 876 872",
   },
   {
     id: "mcredit",
-    title: "3. Vay tiền mặt từ",
+    title: "3. Giải pháp tài chính",
     image: "/assets/images/products/mcredit.png",
     name: "MCredit",
     description:
@@ -34,22 +35,23 @@ const dataProducts = [
   },
   {
     id: "easyCredit",
-    title: "4. Vay tiền mặt từ",
+    title: "4. Giải pháp tài chính",
     image: "/assets/images/products/easy.png",
     name: "Easy Credit",
     description:
-      "Mcredit hướng tới trở thành một công ty tài chính tiêu dùng thuận tiện cho mọi người dân, được khách hàng ưu tiên lựa chọn các sản phẩm dịch vụ tài chính tiêu dùng đa dạng, đáp ứng nhu cầu của khách hàng có thu nhập khiêm tốn từ thành thị tới nông thôn. ",
+      `Cần tiền có liền, trăm sự thuận tiện.
+      Duyệt vay lên tới 70 triệu đồng dành cho mọi đối tượng khách hàng, chỉ với CMND và SHK. Giải ngân nhanh trong 12h bằng tiền mặt hoặc tài khoản ngân hàng`,
     content:
       "Các sản phẩm chính của Mcredit là: Cho vay tiền mặt và Cho vay trả góp, với lợi thế sản phẩm vượt trội, thủ tục xét duyệt nhanh gọn, dịch vụ chăm sóc hậu mãi tận tâm, lãi suất cạnh tranh và mạng lưới rộng khắp giúp Mcredit nhanh chóng tiếp cận tới đông đảo khách hàng trong thời gian ngắn.",
     phone: "0904 876 872",
   },
   {
     id: "PTFVietNam",
-    title: "5. Vay tiền mặt từ",
+    title: "5. Giải pháp tài chính",
     image: "/assets/images/products/ptf.png",
     name: "PTF VietNam",
     description:
-      "Mcredit hướng tới trở thành một công ty tài chính tiêu dùng thuận tiện cho mọi người dân, được khách hàng ưu tiên lựa chọn các sản phẩm dịch vụ tài chính tiêu dùng đa dạng, đáp ứng nhu cầu của khách hàng có thu nhập khiêm tốn từ thành thị tới nông thôn. ",
+      `Giải pháp tài chính dành cho mọi khách hàng, với hồ sơ đơn giản - chỉ cần CMND/SHK, giải ngân ngay khoản vay lên tới 50 triệu trong 12h sau khi đăng kí`,
     content:
       "Các sản phẩm chính của Mcredit là: Cho vay tiền mặt và Cho vay trả góp, với lợi thế sản phẩm vượt trội, thủ tục xét duyệt nhanh gọn, dịch vụ chăm sóc hậu mãi tận tâm, lãi suất cạnh tranh và mạng lưới rộng khắp giúp Mcredit nhanh chóng tiếp cận tới đông đảo khách hàng trong thời gian ngắn.",
     phone: "0904 876 872",

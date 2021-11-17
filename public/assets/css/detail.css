@@ -1,0 +1,26 @@
+.bl-description-detail {
+  background: #ffffff;
+  box-shadow: 0px 6px 14px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 33px 30px;
+  margin-top: -50px;
+  z-index: 4;
+  position: relative;
+}
+
+.tag-header {
+  position: relative;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tag-header::before {
+  content: "";
+  border-right: 5px solid #f99d1b;
+  border-radius: 10px;
+  height: 15px;
+  position: absolute;
+  top: calc((100% - 20px) / 2);
+  left: 0;
+}

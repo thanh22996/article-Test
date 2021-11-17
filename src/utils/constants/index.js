@@ -1,11 +1,13 @@
 const dataProducts = [
   {
+    path: "/detail-mirae",
     id: "mirea",
     title: "1. Giải pháp tài chính",
     image: "/assets/images/products/mirae.png",
+    banner: "/assets/images/products/banner_mirae.png",
     name: "Mirae",
     description: [
-      `Giải pháp tài chính tối ưu cho khách hàng có thu nhập từ 4tr/tháng. Chỉ cần CMND đã có thể lên hồ sơ với khoản vay lên tới 70 triệu đồn`,
+      `Giải pháp tài chính tối ưu cho khách hàng có thu nhập từ 4tr/tháng. Chỉ cần CMND đã có thể lên hồ sơ với khoản vay lên tới 70 triệu đồng`,
       `Giải ngân nhanh chóng trong 24h qua tài khoản ngân hàng`,
     ],
     content: [
@@ -15,9 +17,11 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
+    path: "/detail-ptf",
     id: "PTFVietNam",
     title: "5. Giải pháp tài chính",
     image: "/assets/images/products/ptf.png",
+    banner: "/assets/images/products/banner_ptf.png",
     name: "PTF VietNam",
     description: [
       `Giải pháp tài chính dành cho mọi khách hàng, với hồ sơ đơn giản.`,
@@ -30,9 +34,11 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
+    path: "/detail-mcredit",
     id: "mcredit",
     title: "3. Giải pháp tài chính",
     image: "/assets/images/products/mcredit.png",
+    banner: "/assets/images/products/banner_mcredit.png",
     name: "MCredit",
     description: [
       `Cần vay được ngay, khoản vay lên tới 50 triệu đồng cho mọi đối tượng khách hàng.`,
@@ -43,9 +49,11 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
+    path: "/detail-easycredit",
     id: "easyCredit",
     title: "4. Giải pháp tài chính",
     image: "/assets/images/products/easy.png",
+    banner: "/assets/images/products/banner_easy.png",
     name: "Easy Credit",
     description: [
       `Cần tiền có liền, trăm sự thuận tiện.`,
@@ -56,9 +64,11 @@ const dataProducts = [
     phone: "0904 876 872",
   },
   {
+    path: "/detail-shb",
     id: "SHBFinance",
     title: "2. Giải pháp tài chính",
     image: "/assets/images/products/shb.png",
+    banner: "/assets/images/products/banner_shb.png",
     name: "SHB Finance",
     description: [
       `Nguồn cứu nguy khi lương chưa về dành cho khách hàng có thu nhập từ 4 triệu đồng.`,
@@ -73,7 +83,7 @@ const dataProducts = [
 const dataRecruitment = [
   {
     id: "1",
-    name: "Nhân Viên Kinh Doanh",
+    name: "Nhân viên kinh doanh",
     description: [
       "Sale các sản phẩm tài chính, data có sẵn tương thích với sản phẩm, được hỗ trợ nguồn khách có nhu cầu từ hệ thống Auto Call... , sản phẩm có ưu điểm hỗ trợ nhanh qua hình thức online, không cần hồ sơ khách hàng...",
       "Gọi điện tư vấn cho khách hàng về gói vay tiêu dùng",

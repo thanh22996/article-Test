@@ -42,12 +42,15 @@ function Recruitment(props) {
             {dataRecruitment &&
               dataRecruitment.map((value, key) => {
                 return (
-                  <div className="col-md-6 col-lg-5 col-xl-4" key={key}>
+                  <div
+                    className="col-md-6 col-lg-5 col-xl-4 bl-item-recruit"
+                    key={key}
+                  >
                     <div className="block-recruitment">
                       <div className="img-recruitment">
                         <img
                           width="100%"
-                          src="/assets/images/recruitment/img_top.png"
+                          src="/assets/images/recruitment/img_top_re.png"
                           alt="picHead"
                         />
                       </div>

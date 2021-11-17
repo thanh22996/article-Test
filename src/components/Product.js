@@ -60,7 +60,7 @@ function Product(props) {
                             />
                             <span>{value.phone}</span>
                           </div>
-                          <NavLink to="/detail-product">
+                          <NavLink to={value.path}>
                             <div
                               className="block-right"
                               onClick={() => handleLinkDetail(value)}

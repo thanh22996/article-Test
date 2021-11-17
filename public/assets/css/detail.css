@@ -4,7 +4,7 @@
   border-radius: 20px;
   padding: 33px 30px;
   margin-top: -50px;
-  z-index: 4;
+  z-index: 0;
   position: relative;
 }
 
@@ -23,4 +23,9 @@
   position: absolute;
   top: calc((100% - 20px) / 2);
   left: 0;
+}
+
+.name-advantage {
+  max-width: 195px;
+  margin: auto;
 }

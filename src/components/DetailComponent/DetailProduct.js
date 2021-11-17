@@ -38,63 +38,75 @@ function DetailProduct(props) {
                         src="/assets/images/products/detail/salari_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo lương</p>
+                      <p className="name-advantage">Vay theo lương</p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/saoke_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo sao kê tài khoản ngân hàng</p>
+                      <p className="name-advantage">
+                        Vay theo sao kê tài khoản ngân hàng
+                      </p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/tienmat_icon.png"
                         alt="icon"
                       />
-                      <p>Vay tiền mặt nhanh</p>
+                      <p className="name-advantage">Vay tiền mặt nhanh</p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/hoadon_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo hóa đơn điện/nước</p>
+                      <p className="name-advantage">
+                        Vay theo hóa đơn điện/nước
+                      </p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/tinchap_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo hợp đồng tín chấp</p>
+                      <p className="name-advantage">
+                        Vay theo hợp đồng tín chấp
+                      </p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/baohiem_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo hợp đồng bảo hiểm nhân thọ</p>
+                      <p className="name-advantage">
+                        Vay theo hợp đồng bảo hiểm nhân thọ
+                      </p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/cavec_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo cà vẹc xe</p>
+                      <p className="name-advantage">Vay theo cà vẹc xe</p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/tindung_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo sao kê thẻ tín dụng</p>
+                      <p className="name-advantage">
+                        Vay theo sao kê thẻ tín dụng
+                      </p>
                     </div>
                     <div className="col-md-4 text-center">
                       <img
                         src="/assets/images/products/detail/theoluong_icon.png"
                         alt="icon"
                       />
-                      <p>Vay theo lương dành cho khách hàng có thu nhập cao</p>
+                      <p className="name-advantage">
+                        Vay theo lương dành cho khách hàng có thu nhập cao
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -73,34 +73,6 @@ function Recruitment(props) {
                   </div>
                 );
               })}
-            {/* <div className="col-md-4">
-              <div className="block-recruitment">
-                <div className="img-recruitment">
-                  <img
-                    width="100%"
-                    src="/assets/images/recruitment/img_top.png"
-                    alt="picHead"
-                  />
-                </div>
-                <div className="content-recruitment">
-                  <p className="bl-title-recruitment">Tuyển dụng</p>
-                  <p className="bl-name">Nhân viên kinh doanh</p>
-                  <ul className="bl-description">
-                    <li>Nhận đề xuất tuyển dụng từ cấp trên.</li>
-                    <li>
-                      Hỗ trợ công tác tuyển dụng (sàng lọc hồ sơ, hẹn và sắp xếp
-                      lịch phỏng vấn)
-                    </li>
-                    <li>
-                      Báo cáo tuyển dụng hàng ngày, hàng tuần và hàng tháng
-                    </li>
-                  </ul>
-                  <p className="bl-read-more" onClick={handleClose}>
-                    Tìm hiểu công việc
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

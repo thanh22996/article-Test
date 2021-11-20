@@ -13,7 +13,7 @@ function Product(props) {
   return (
     <div className="page-products">
       <div className="top-header">
-        <img width="100%" src="/assets/images/products/top-header.png" alt="" />
+        <img width="100%" src="/assets/images/home/banner_sp.png" alt="" />
       </div>
       <div className="container">
         <div className="block-breakrum">

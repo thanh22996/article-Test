@@ -6,6 +6,7 @@ import DetailMCredit from "./components/DetailComponent/DetailMCredit";
 import DetailProduct from "./components/DetailComponent/DetailProduct";
 import DetailPTF from "./components/DetailComponent/DetailPTF";
 import DetailSHB from "./components/DetailComponent/DetailSHB";
+import IntroducePage from "./components/IntroducePage";
 import Product from "./components/Product";
 import Recruitment from "./components/Recruitment";
 import MasterLayout from "./Layout/MasterLayout";
@@ -18,6 +19,7 @@ function App() {
       <MasterLayout>
         <Switch location={location}>
           <Route path="/" component={BankUs} exact />
+          <Route path="/introduce" component={IntroducePage} exact />
           <Route path="/products" component={Product} />
           <Route path="/recruitment" component={Recruitment} />
           <Route path="/contact" component={Contact} />

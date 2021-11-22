@@ -1,9 +1,6 @@
 import React from "react";
-import { useSelector } from "react-redux";
 
 function DetailPTF(props) {
-  const { dataProduct } = useSelector((state) => state.listArticleReducer);
-  console.log("dataProduct: ", dataProduct);
   return (
     <div className="wrapper-detail">
       <div className="top-header">
@@ -18,7 +15,7 @@ function DetailPTF(props) {
         <div className="main-description">
           <div className="container">
             <div className="bl-description-detail mb-5">
-              <p>1. PTF VietNam</p>
+              <p>PTF VietNam</p>
               <ul>
                 <li>
                   Giải pháp tài chính dành cho mọi khách hàng, với hồ sơ đơn

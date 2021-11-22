@@ -36,7 +36,7 @@ function Contact() {
                   </p>
                   <p className="bl-text bl-text-common">
                     <span>Email:</span>
-                    <span>quang.nth@bankus.vn</span>
+                    <span className="bre-text">quang.nth@bankus.vn</span>
                   </p>
                 </div>
                 <div className="bl-item">
@@ -45,7 +45,9 @@ function Contact() {
                   </p>
                   <p className="bl-text bl-text-common">
                     <span>Fanpage:</span>
-                    <span>https://www.facebook.com/bankus.vn</span>
+                    <span className="bre-text">
+                      https://www.facebook.com/bankus.vn
+                    </span>
                   </p>
                 </div>
                 <div className="bl-item">
@@ -54,7 +56,7 @@ function Contact() {
                   </p>
                   <p className="bl-text bl-text-common">
                     <span>Website:</span>
-                    <span>https://bankus.vn</span>
+                    <span className="bre-text">https://bankus.vn</span>
                   </p>
                 </div>
               </div>

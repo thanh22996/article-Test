@@ -18,14 +18,14 @@ function ModelRecruitment(props) {
           src="/assets/images/recruitment/Icon_close.png"
           alt="icon"
         />
-        <Modal.Title>Mô tả công việc</Modal.Title>
+        <Modal.Title>MÔ TẢ CÔNG VIỆC</Modal.Title>
       </Modal.Header>
       {dataRecruit && (
         <Modal.Body>
           <p className="title-name">{dataRecruit.name}</p>
           {dataRecruit.description && (
             <div className="bl-description">
-              <p>Mô tả</p>
+              <p className="sub-title">Mô tả</p>
               <ul>
                 {dataRecruit.description.map((value, key) => {
                   return <li key={key}>{value}</li>;
@@ -35,7 +35,7 @@ function ModelRecruitment(props) {
           )}
           {dataRecruit.requirement && (
             <div className="bl-description">
-              <p>Yêu cầu</p>
+              <p className="sub-title">Yêu cầu</p>
               <ul>
                 {dataRecruit.requirement.map((value, key) => {
                   return <li key={key}>{value}</li>;
@@ -45,7 +45,7 @@ function ModelRecruitment(props) {
           )}
           {dataRecruit.interest && (
             <div className="bl-description">
-              <p>Quyền lợi</p>
+              <p className="sub-title">Quyền lợi</p>
               <ul>
                 {dataRecruit.interest.map((value, key) => {
                   return <li key={key}>{value}</li>;

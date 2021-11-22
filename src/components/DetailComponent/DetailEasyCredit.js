@@ -1,9 +1,9 @@
 import React from "react";
-import { useSelector } from "react-redux";
+// import { useSelector } from "react-redux";
 
 function DetailEasyCredit(props) {
-  const { dataProduct } = useSelector((state) => state.listArticleReducer);
-  console.log("dataProduct: ", dataProduct);
+  // const { dataProduct } = useSelector((state) => state.listArticleReducer);
+  // console.log("dataProduct: ", dataProduct);
   return (
     <div className="wrapper-detail">
       <div className="top-header">

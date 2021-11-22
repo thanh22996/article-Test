@@ -277,6 +277,34 @@ function BankUs(props) {
                   <div className="block-item-project">
                     <img
                       width="100%"
+                      src="/assets/images/home/mcredit.png"
+                      alt="bank"
+                    />
+                    <div className="content-project">
+                      <div className="content-top">
+                        <div className="content-left">
+                          <p className="mb-0">Giải pháp tài chính</p>
+                          <p>MCREDIT</p>
+                        </div>
+                        <div className="content-right">
+                          <img
+                            src="/assets/images/icons/icon_read_more.png"
+                            alt="icon"
+                          />
+                        </div>
+                      </div>
+                      <div className="content-bottom">
+                        <p>Cần vay, được ngay, ngại gì covid</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Fade>
+              <Fade left>
+                <div className="col-md-4 mt-4">
+                  <div className="block-item-project">
+                    <img
+                      width="100%"
                       src="/assets/images/home/easycredit.png"
                       alt="bank"
                     />
@@ -298,34 +326,6 @@ function BankUs(props) {
                           Cần tiền có liền. Trăm sự thuận tiện. Cuộc sống an
                           nhiên
                         </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Fade>
-              <Fade left>
-                <div className="col-md-4 mt-4">
-                  <div className="block-item-project">
-                    <img
-                      width="100%"
-                      src="/assets/images/home/mcredit.png"
-                      alt="bank"
-                    />
-                    <div className="content-project">
-                      <div className="content-top">
-                        <div className="content-left">
-                          <p className="mb-0">Giải pháp tài chính</p>
-                          <p>MCREDIT</p>
-                        </div>
-                        <div className="content-right">
-                          <img
-                            src="/assets/images/icons/icon_read_more.png"
-                            alt="icon"
-                          />
-                        </div>
-                      </div>
-                      <div className="content-bottom">
-                        <p>Cần vay, được ngay, ngại gì covid</p>
                       </div>
                     </div>
                   </div>
@@ -379,6 +379,11 @@ function BankUs(props) {
                 </div>
                 <div>
                   <div className="block-item-partner">
+                    <img src="/assets/images/home/partner_ptf.png" alt="bank" />
+                  </div>
+                </div>
+                <div>
+                  <div className="block-item-partner">
                     <img
                       src="/assets/images/home/mcredit_partner.png"
                       alt="bank"
@@ -395,43 +400,10 @@ function BankUs(props) {
                 </div>
                 <div>
                   <div className="block-item-partner">
-                    <img src="/assets/images/home/partner_ptf.png" alt="bank" />
-                  </div>
-                </div>
-                <div>
-                  <div className="block-item-partner">
                     <img src="/assets/images/home/partner_shb.png" alt="bank" />
                   </div>
                 </div>
               </Slider>
-              {/* <div className="col-md-4">
-                <div className="block-item-partner">
-                  <img src="/assets/images/home/partner_mirae.png" alt="bank" />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="block-item-partner">
-                  <img src="/assets/images/home/partner_shb.png" alt="bank" />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="block-item-partner">
-                  <img
-                    src="/assets/images/home/mcredit_partner.png"
-                    alt="bank"
-                  />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="block-item-partner">
-                  <img src="/assets/images/home/partner_easy.png" alt="bank" />
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="block-item-partner">
-                  <img src="/assets/images/home/partner_ptf.png" alt="bank" />
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

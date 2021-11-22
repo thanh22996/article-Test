@@ -45,6 +45,16 @@ function Header(props) {
                       </span>
                     </Nav.Link>
                   </NavLink>
+                  <NavLink to="/introduce">
+                    <Nav.Link href="introduce">
+                      <span
+                        className={stateActive === "introduce" ? "active" : ""}
+                        onClick={() => handleActive("introduce")}
+                      >
+                        GIỚI THIỆU
+                      </span>
+                    </Nav.Link>
+                  </NavLink>
                   <NavLink to="/products">
                     <Nav.Link href="products">
                       <span

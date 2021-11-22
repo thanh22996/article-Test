@@ -81,14 +81,14 @@ function BankUs(props) {
           <div className="image-slider">
             <img
               width="100%"
-              src="/assets/images/slider/banner_easy.png"
+              src="/assets/images/slider/4_EasyCredit_.png"
               alt="slide"
             />
           </div>
           <div className="image-slider">
             <img
               width="100%"
-              src="/assets/images/slider/banner_ptf.png"
+              src="/assets/images/slider/5_ptf.png"
               alt="slide"
             />
           </div>

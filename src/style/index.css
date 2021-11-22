@@ -135,7 +135,7 @@ body {
 }
 
 .wrapper-introduce {
-  background-image: url("img/home/bg-intro.png");
+  background-image: url("../img/home/bg-intro.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
@@ -170,7 +170,7 @@ body {
 }
 
 .block-page-bankus .block-vision-mission {
-  background-image: url("img/home/bg_tamnhin.png");
+  background-image: url("../img/home/bg_tamnhin.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
@@ -234,7 +234,7 @@ body {
 }
 
 .block-page-bankus .block-projects-list {
-  background-image: url("img/home/projects_bankus.png");
+  background-image: url("../img/home/projects_bankus.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 50px;
@@ -296,7 +296,7 @@ body {
 }
 
 .block-page-bankus .block-partner-list {
-  background-image: url("img/home/bg_partner.png");
+  background-image: url("../img/home/bg_partner.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;

@@ -1,0 +1,39 @@
+.bl-content-intro {
+  border-left: 2px solid #acacac;
+  margin-bottom: 50px;
+}
+
+.bl-item-intro {
+  padding-left: 50px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.bl-item-intro::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #f99d1b;
+  border: 16px solid #f99d1b;
+  top: 0;
+  left: -17px;
+}
+
+.bl-item-intro .bl-year {
+  max-width: 176px;
+  height: 30px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bl-item-intro .bl-content p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+}

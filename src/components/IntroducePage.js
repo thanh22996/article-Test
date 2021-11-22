@@ -119,6 +119,45 @@ function IntroducePage(props) {
               </div>
             </div>
           </div>
+          <p className="bl-title">
+            Mô hình triễn khai tín chấp khối khách hàng cá nhân
+          </p>
+          <div className="bl-architecture mb-5">
+            <div className="row">
+              <div className="col-md-3 text-center">
+                <img src="/assets/images/intro/DIRECTSALE.png" alt="icon" />
+                <p className="title-architecture">DIRECTSALE</p>
+                <p className="content-architecture">
+                  Lượng nhân sự thị trường phủ rộng khắp 17 tỉnh Miền Nam.
+                </p>
+              </div>
+              <div className="col-md-3 text-center">
+                <img src="/assets/images/intro/connect_cty.png" alt="icon" />
+                <p className="title-architecture">LIÊN KẾT CÔNG TY</p>
+                <p className="content-architecture">
+                  {" "}
+                  Liên kết với 5 dự án tài chính nổi bật và hơn 10 công ty tài
+                  chính triển khai dự án.
+                </p>
+              </div>
+              <div className="col-md-3 text-center">
+                <img src="/assets/images/intro/telesale.png" alt="icon" />
+                <p className="title-architecture">TELESALE</p>
+                <p className="content-architecture">
+                  Đội Telesale với nhân lực trên 120 nhân sự đang làm việc tại
+                  công ty và 50 nhân viên làm việc tại nhà.
+                </p>
+              </div>
+              <div className="col-md-3 text-center">
+                <img src="/assets/images/intro/pos_receive.png" alt="icon" />
+                <p className="title-architecture">POS NHẬN HỒ SƠ</p>
+                <p className="content-architecture">
+                  Mở rộng chi nhánh nhằm hỗ trợ khách hàng thuận tiện trong việc
+                  tiếp nhận và kí hợp đồng.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

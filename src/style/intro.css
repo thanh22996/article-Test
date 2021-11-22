@@ -21,6 +21,18 @@
   left: -17px;
 }
 
+.bl-item-intro::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  border: 8px solid #fff;
+  top: 6px;
+  left: -11px;
+}
+
 .bl-item-intro .bl-year {
   max-width: 176px;
   height: 30px;
@@ -36,4 +48,20 @@
 .bl-item-intro .bl-content p:nth-child(1) {
   font-size: 18px;
   font-weight: 700;
+}
+
+.bl-item-intro .bl-content p:nth-child(2) {
+  color: #6c6c6c;
+}
+
+.title-architecture {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f99d1b;
+}
+
+.content-architecture {
+  font-size: 15px;
+  font-weight: 400;
+  color: #6c6c6c;
 }

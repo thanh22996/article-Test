@@ -452,6 +452,7 @@ a {
   border-radius: 15px;
   height: 100%;
   margin: 0 16px;
+  overflow: hidden;
 }
 
 .page-recruitment .block-content {
@@ -631,21 +632,6 @@ a {
   background: #80808065;
 }
 
-@media screen and (max-width: 767px) {
-  .block-mission {
-    margin-top: 20px !important;
-  }
-  .line-right {
-    border-right: none;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .block-list-menu a {
-    padding: 10px 0;
-  }
-}
-
 @media screen and (max-width: 1400px) {
   .block-page-bankus .title-name {
     font-size: 30px;
@@ -667,5 +653,57 @@ a {
 
   .block-page-bankus .title-name::before {
     top: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .block-list-menu a {
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block-mission {
+    margin-top: 20px !important;
+  }
+  .line-right {
+    border-right: none;
+  }
+  .block-page-bankus .title-name {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .block-page-bankus .title-name::before {
+    top: 30px;
+  }
+
+  .branch-name {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .branch-name::before {
+    top: 28px;
+  }
+
+  .wrapper-introduce {
+    padding-top: 20px;
+  }
+
+  .bl-title {
+    font-size: 20px;
+  }
+  .phone-readmore {
+    display: block !important;
+  }
+
+  .phone-readmore .block-left {
+    margin-bottom: 10px;
+    max-width: 217px;
+    width: 100%;
+  }
+
+  .bl-item-recruit {
+    margin-bottom: 16px;
   }
 }

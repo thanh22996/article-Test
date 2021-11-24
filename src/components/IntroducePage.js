@@ -29,7 +29,7 @@ function IntroducePage(props) {
             chính cấp thiết, đồng thời nâng cao chất lượng dịch vụ và sự tiện
             ích cho khách hàng.
           </p>
-          <p className="bl-title">Quá trình thành lập & phát triễn</p>
+          <p className="bl-title">Quá trình thành lập & phát triển</p>
           <div className="bl-content-intro">
             <div className="bl-item-intro">
               <div className="row">
@@ -48,7 +48,7 @@ function IntroducePage(props) {
             <div className="bl-item-intro">
               <div className="row">
                 <div className="col-md-3">
-                  <p className="bl-year">31.08.2020</p>
+                  <p className="bl-year">30.12.2020</p>
                 </div>
                 <div className="col-md-9 bl-content">
                   <p>Nguồn nhân lực đạt mức 50 sale – 4 quản lý</p>
@@ -62,7 +62,7 @@ function IntroducePage(props) {
             <div className="bl-item-intro">
               <div className="row">
                 <div className="col-md-3">
-                  <p className="bl-year">01.12.2020</p>
+                  <p className="bl-year">01.01.2021</p>
                 </div>
                 <div className="col-md-9 bl-content">
                   <p>Kí kết dự án SHBFinance và PTF</p>
@@ -120,7 +120,7 @@ function IntroducePage(props) {
             </div>
           </div>
           <p className="bl-title">
-            Mô hình triễn khai tín chấp khối khách hàng cá nhân
+            Mô hình triển khai tín chấp khối khách hàng cá nhân
           </p>
           <div className="bl-architecture mb-5">
             <div className="row">

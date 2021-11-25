@@ -7,7 +7,7 @@ function Contact() {
       <div className="top-header">
         <img
           width="100%"
-          src="/assets/images/home/banner_lienhe.png"
+          src="/assets/images/home/banner/CONTACT.png"
           alt="picHeader"
         />
       </div>

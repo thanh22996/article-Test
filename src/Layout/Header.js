@@ -35,53 +35,58 @@ function Header(props) {
                   navbarScroll
                   defaultActiveKey=""
                 >
-                  <NavLink to="/">
+                  <NavLink to="/" onClick={() => handleActive("")}>
                     <Nav.Link href="home">
-                      <span
-                        className={stateActive === "" ? "active" : ""}
-                        onClick={() => handleActive("")}
-                      >
+                      <span className={stateActive === "" ? "active" : ""}>
                         TRANG CHỦ
                       </span>
                     </Nav.Link>
                   </NavLink>
-                  <NavLink to="/introduce">
+                  <NavLink
+                    to="/introduce"
+                    onClick={() => handleActive("introduce")}
+                  >
                     <Nav.Link href="introduce">
                       <span
                         className={stateActive === "introduce" ? "active" : ""}
-                        onClick={() => handleActive("introduce")}
                       >
                         GIỚI THIỆU
                       </span>
                     </Nav.Link>
                   </NavLink>
-                  <NavLink to="/products">
+                  <NavLink
+                    to="/products"
+                    onClick={() => handleActive("products")}
+                  >
                     <Nav.Link href="products">
                       <span
                         className={stateActive === "products" ? "active" : ""}
-                        onClick={() => handleActive("products")}
                       >
                         SẢN PHẨM
                       </span>
                     </Nav.Link>
                   </NavLink>
-                  <NavLink to="/recruitment">
+                  <NavLink
+                    to="/recruitment"
+                    onClick={(e) => handleActive("recruitment")}
+                  >
                     <Nav.Link href="recruitment">
                       <span
                         className={
                           stateActive === "recruitment" ? "active" : ""
                         }
-                        onClick={(e) => handleActive("recruitment")}
                       >
                         TUYỂN DỤNG
                       </span>
                     </Nav.Link>
                   </NavLink>
-                  <NavLink to="/contact">
+                  <NavLink
+                    to="/contact"
+                    onClick={(e) => handleActive("contact")}
+                  >
                     <Nav.Link href="contact">
                       <span
                         className={stateActive === "contact" ? "active" : ""}
-                        onClick={(e) => handleActive("contact")}
                       >
                         LIÊN HỆ
                       </span>

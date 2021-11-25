@@ -16,7 +16,7 @@ function Recruitment(props) {
       <div className="top-header">
         <img
           width="100%"
-          src="/assets/images/home/banner_tuyendung.png"
+          src="/assets/images/home/banner/TUYENDUNG.png"
           alt="picHeader"
         />
       </div>

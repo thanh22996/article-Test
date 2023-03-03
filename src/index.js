@@ -2,6 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./style/index.css";
 import "./style/intro.css";
+import "./style/addnew.css";
+import "./style/filtersort.css";
+
+import "./style/advertise.css";
+
 import App from "./App";
 
 import { Provider } from "react-redux";

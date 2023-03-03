@@ -1,0 +1,38 @@
+.label {
+    margin-bottom: 0 !important;
+    color: #757575;
+    margin-right: 10px;
+}
+
+.select {
+    margin-right: 30px;
+    border-radius: 0.2rem;
+    font-size: .875em;
+}
+
+.form-control {
+    display: block;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 720px;
+    height: 92.56px;
+}
+
+.checkbox-block {
+    width: 10px;
+
+}
+
+.form-block {
+
+    margin: auto;
+    margin-top: 50px;
+    max-width: 720px;
+    max-height: 525px;
+    border-color: #757575;
+    border: 0.01px;
+    padding: 20px;
+    background-color: #eff1f2;
+    border-radius: 0.5rem;
+
+}

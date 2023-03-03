@@ -5,9 +5,9 @@ import Header from './Header';
 function MasterLayout(props) {
     return (
         <div className="wrapper-layout">
-            <Header />
+            {/* <Header /> */}
             {props.children}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

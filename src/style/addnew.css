@@ -1,0 +1,21 @@
+.form-add {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.flex-block {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    border-color: #fff;
+    margin: 3px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 0.5rem;
+}

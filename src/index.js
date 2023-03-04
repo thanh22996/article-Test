@@ -4,6 +4,7 @@ import "./style/index.css";
 import "./style/intro.css";
 import "./style/addnew.css";
 import "./style/filtersort.css";
+import "./style/purchase.css";
 
 import "./style/advertise.css";
 

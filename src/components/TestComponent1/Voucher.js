@@ -15,9 +15,6 @@ export function Voucher() {
                 <button type="button" class="btn btn-default">Gửi</button>
 
             </div>
-
-
-
         </div>
 
     </div>

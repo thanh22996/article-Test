@@ -1,0 +1,155 @@
+.list-inline {
+    display: block;
+}
+
+.list-inline li {
+    display: inline-block;
+    content: ">";
+}
+
+.list-inline>li::after {
+    content: ">";
+    margin: 0 10px;
+}
+
+.checked {
+    color: orange;
+}
+
+.btn {
+    background-color: #fff;
+    color: #64c5b1;
+    border-color: #64c5b1;
+}
+
+.product-block {
+    max-width: 230px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.img-block {
+
+    max-width: 250px;
+    height: 220px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+
+}
+
+.img-control {
+    max-width: 200px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.detail-block {
+    display: flex;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 0.5rem;
+    position: sticky;
+    margin-bottom: 20px;
+}
+
+
+
+.p-control {
+    background-color: #e6f8ff;
+    max-width: 80px;
+    border-radius: 0.3rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+    color: blue;
+}
+
+
+.flex-block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.vertical-block {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 0px;
+    position: sticky;
+    max-width: 1300px;
+
+}
+
+
+
+.container-product {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+
+}
+
+.header-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64c5b1;
+    position: absolute;
+    height: 150px;
+    top: 0px;
+    left: 120px;
+    right: 120px;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.form-container {
+    display: block;
+    /* background-color: #f1ebeb; */
+    max-width: 1300px;
+    margin: auto;
+}
+
+.list-unstyle {
+    list-style: none;
+}
+
+.list-unstyle li::before {
+    content: "\f00c" !important;
+    font-family: 'font awesome 5 free' !important;
+    font-weight: 600;
+    font-size: 12px;
+    color: #03d87f !important;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.button-detail {
+    background-color: #20b1b9;
+    border: none;
+    width: 180px;
+    height: 36px;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.related-block {
+
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    display: block;
+    flex-direction: column;
+    max-width: 1200;
+    position: sticky;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 20px;
+
+}

@@ -8,6 +8,8 @@ import "./style/purchase.css";
 
 import "./style/advertise.css";
 
+import "./style/product.css"
+
 import App from "./App";
 
 import { Provider } from "react-redux";

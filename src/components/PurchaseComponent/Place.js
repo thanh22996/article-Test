@@ -12,13 +12,13 @@ export function Place() {
         <div style={{ marginLeft: 5 }} className="flex-control">
 
             <div class="form-check">
-                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
+                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
                 <label style={{ marginRight: 20 }} className="form-check-label" for="flexRadioDefault1" >
                     Anh
                 </label>
             </div>
             <div className="form-check">
-                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
                 <label className="form-check-label" for="flexRadioDefault2">
                     Chị
                 </label>
@@ -70,13 +70,13 @@ export function Place() {
 
                 <div style={{ marginLeft: 30 }} className="flex-control">
                     <div class="form-check">
-                        <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked />
+                        <input className="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault3" />
                         <label style={{ marginRight: 20 }} className="form-check-label" for="flexRadioDefault3">
                             Anh
                         </label>
                     </div>
                     <div className="form-check">
-                        <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked />
+                        <input className="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault4" />
                         <label className="form-check-label" for="flexRadioDefault4">
                             Chị
                         </label>

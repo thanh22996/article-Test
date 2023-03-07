@@ -1,4 +1,6 @@
 import React from 'react'
+import { HeaderCart } from '../components/ProductComponent/CartProduct/HeaderCart'
+import { ProductCart } from '../components/ProductComponent/CartProduct/ProductCart'
 
 import { Header } from '../components/ProductComponent/Header'
 import { Product } from '../components/ProductComponent/Product'
@@ -10,12 +12,9 @@ import { RelatedProduct } from '../components/ProductComponent/ProductDetail/Rel
 
 export function TodoListContainer() {
     return <div className='form-container'>
-        <div style={{ backgroundColor: "#eff2f3", maxWidth: 1200, marginLeft: 47, marginRight: 47 }}>
-            <HeaderDetail></HeaderDetail>
-            <ProductDetail></ProductDetail>
-            <RelatedProduct></RelatedProduct>
-            <ListRelatedProduct></ListRelatedProduct>
-        </div>
+
+        <Header></Header>
+        <Product></Product>
 
     </div >
 }

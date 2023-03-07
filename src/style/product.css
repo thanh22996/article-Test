@@ -1,5 +1,6 @@
 .list-inline {
     display: block;
+    color: #fff;
 }
 
 .list-inline li {
@@ -24,9 +25,16 @@
 
 .product-block {
     max-width: 230px;
-    height: 400px;
+    height: 380px;
     background-color: #fff;
     border-radius: 0.5rem;
+    padding: 10px;
+    position: sticky;
+}
+
+.product-block button {
+    width: 200px;
+    margin: auto;
 }
 
 .img-block {
@@ -42,7 +50,7 @@
 .img-control {
     max-width: 200px;
     margin: auto;
-    margin-left: 0px;
+    /* margin-left: 0px; */
 }
 
 .detail-block {
@@ -79,10 +87,11 @@
     display: block;
     flex-direction: column;
     margin-bottom: 0px;
-    position: sticky;
     max-width: 1300px;
 
 }
+
+
 
 
 
@@ -90,7 +99,7 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 40px;
-    background-color: #fff;
+    background-color: #f1ebeb;
 
 }
 
@@ -99,20 +108,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: #64c5b1;
-    position: absolute;
     height: 150px;
-    top: 0px;
-    left: 120px;
-    right: 120px;
     max-width: 1200px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     margin: auto;
+    position: absolute;
 
 }
 
 .form-container {
-    display: block;
-    /* background-color: #f1ebeb; */
-    max-width: 1300px;
+
+    background-color: #f1ebeb;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -152,4 +161,10 @@
     border-radius: 0.5rem;
     padding: 20px;
 
+}
+
+.cartproduct-container {}
+
+.img-cart-product {
+    max-width: 70px;
 }

@@ -1,117 +1,50 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-
+import React from 'react'
+import { Container } from 'react-bootstrap'
 
 export function ProductCart() {
-
-    return <div>
-
-        <div style={{ marginTop: 300 }}>
-
-            <Container style={{ backgroundColor: "white" }}>
-                <Row>
-                    <Col className="col-2">
-                        <Row>
-                            <label> Product </label>
-                        </Row>
-
-                        <Row >
-                            <div style={{ margin: 0 }} className=" flex-block">
-                                <img className=" img-cart-product" src="https://demo.dashboardpack.com/sales-html/img/products/img-5.png"></img>
-                                <div>
-                                    <span>Reebok Beg</span>
-                                    <span>size-08 (Model 2019)</span>
-                                </div>
-                            </div>
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-                    </Col>
-
-                    <Col className="col-1">
-                        <Row>
-                            <label>Price</label>
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-                    </Col>
-
-                    <Col className="col-1">
-                        <Row>
-                            <label>Quantity</label>
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-                    </Col>
-
-                    <Col className="col-2">
-                        <Row>
-                            <label>Total</label>
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-                    </Col>
-
-                    <Col className="col-1">
-                        <Row>
-                            <label>Action</label>
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-
-                        <Row>
-
-                        </Row>
-                    </Col>
-                </Row>
-            </Container>
-
-
-        </div>
-
+  return (
+    <div>
+      <div style={{ marginTop: 300 }}>
+        <Container style={{ backgroundColor: 'white' }}>
+          <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+            <tr>
+              <td>Island Trading</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+            </tr>
+            <tr>
+              <td>Laughing Bacchus Winecellars</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+            </tr>
+            <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+          </table>
+        </Container>
+      </div>
     </div>
-
-
+  )
 }

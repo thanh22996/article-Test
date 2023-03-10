@@ -2,7 +2,7 @@ import React from "react";
 
 export function ProductDetail() {
 
-    return <div style={{ margin: 80 }} className="flex-block container-product detail-block">
+    return <div style={{ margin: 70 }} className="flex-block  detail-block">
 
 
         <img style={{ maxWidth: 400, maxHeight: 300, marginRight: 100 }} src="https://demo.dashboardpack.com/sales-html/img/products/01.png"></img>

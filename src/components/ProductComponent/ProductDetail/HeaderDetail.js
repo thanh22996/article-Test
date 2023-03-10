@@ -15,7 +15,6 @@ export function HeaderDetail() {
 
 
         <a style={{ margin: 60, }}>
-
             <button style={{ borderColor: "white" }} type="button" class="btn btn-primary">Creat Report</button>
 
         </a>

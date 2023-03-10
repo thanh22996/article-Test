@@ -8,7 +8,7 @@
   content: '>';
 }
 
-.list-inline > li::after {
+.list-inline>li::after {
   content: '>';
   margin: 0 10px;
 }
@@ -58,6 +58,7 @@
   padding: 30px;
   border-radius: 0.5rem;
   position: sticky;
+  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -75,7 +76,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .vertical-block {
@@ -137,19 +138,18 @@
 
 .related-block {
   margin: auto;
-  margin-top: -50px;
-  margin-bottom: -50px;
-  display: block;
-  flex-direction: column;
-  max-width: 1200;
+  /* margin-top: -50px;
+  margin-bottom: -50px; */
+  /* display: block; */
+  /* flex-direction: column; */
+  max-width: 1200px;
   position: sticky;
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 0.5rem;
-  padding: 20px;
+  padding: 30px;
 }
 
-.cartproduct-container {
-}
+.cartproduct-container {}
 
 .img-cart-product {
   max-width: 70px;
@@ -198,21 +198,71 @@
   right: -1px;
 }
 
-//CART
+
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+
 }
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: none;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #fff;
+}
+
+.table>:not(:first-child) {
+  border-top: none;
+}
+
+thead {
+  background-color: #f8faff;
+  border-radius: 0.5rem;
+}
+
+.product-cart {
+  margin-top: 80px;
+  position: sticky;
+  border-radius: 0.5rem;
+  max-width: 1200px;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.total-payment {
+  border: 1px solid #f1f5fa;
+  background-color: #fff;
+  border-radius: 3px;
+  max-width: 452px;
+  max-height: 338px;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+}
+
+.border-control {
+  border-bottom: gray solid 1px;
+}
+
+thead>tr>th {
+  border: none;
 }

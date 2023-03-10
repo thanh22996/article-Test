@@ -1,4 +1,5 @@
 import React from 'react'
+import { ListGroup } from 'react-bootstrap'
 import { HeaderCart } from '../components/ProductComponent/CartProduct/HeaderCart'
 import { ProductCart } from '../components/ProductComponent/CartProduct/ProductCart'
 
@@ -13,8 +14,8 @@ import { RelatedProduct } from '../components/ProductComponent/ProductDetail/Rel
 export function TodoListContainer() {
     return <div className='form-container'>
 
-        <Header></Header>
-        <Product></Product>
+        <HeaderCart></HeaderCart>
+        <ProductCart></ProductCart>
 
     </div >
 }

@@ -6,7 +6,7 @@ const TotalCart = () => {
 
         <table className=" table">
             <thead style={{ backgroundColor: "white" }}>
-                <tr className="border-control" >
+                <tr >
                     <th className="border-control" scope="col"> <b>Total Payment</b></th>
                     <th className="border-control" scope="col"><b></b></th>
 
@@ -16,17 +16,17 @@ const TotalCart = () => {
             <tbody>
 
                 <tr >
-                    <th style={{ display: "flex" }} scope="row">
+                    <th className="border-control" style={{ display: "flex" }} scope="row">
                         Subtotal
                     </th>
-                    <td>$496.00</td>
+                    <td className="border-control"  >$496.00</td>
                 </tr>
 
                 <tr >
-                    <th style={{ display: "flex" }} scope="row">
+                    <th className="border-control" style={{ display: "flex" }} scope="row">
                         Shipping
                     </th>
-                    <td>
+                    <td className="border-control" >
                         <div className="vertical-block">
                             <div className='form-check'>
                                 <input className='form-check-input' type='radio' name='flexRadioDefault'
@@ -54,22 +54,22 @@ const TotalCart = () => {
                         </div>
 
                         <p> <b>Change Address</b> </p>
-                    </td>
+                    </td >
 
                 </tr>
 
                 <tr >
-                    <th style={{ display: "flex" }} scope="row">
+                    <th className="border-control" style={{ display: "flex" }} scope="row">
                         Promo Code
                     </th>
-                    <td> 	-$10.00 </td>
+                    <td className="border-control"> 	-$10.00 </td>
                 </tr>
 
                 <tr >
-                    <th style={{ display: "flex" }} scope="row">
+                    <th className="border-control" style={{ display: "flex" }} scope="row">
                         Total
                     </th>
-                    <td> <b> $491.00 </b></td>
+                    <td className="border-control"> <b> $491.00 </b></td>
                 </tr>
 
             </tbody>

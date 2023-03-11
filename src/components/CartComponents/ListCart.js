@@ -4,7 +4,7 @@ import { productRelated } from '../../constant/dataProduct'
 
 const ListCart = () => {
 
-    return <Container className='product-cart' style={{ backgroundColor: 'white' }}>
+    return <Container className="product-cart">
         <table style={{ border: 0.5 }} className="table">
             <thead>
                 <tr>

@@ -17,7 +17,7 @@ const RelatedProduct = () => {
 
         </div>
 
-        <div style={{ maxWidth: 1200, position: "sticky" }} className="related-block flex-block">
+        <div style={{ maxWidth: 1200, position: "sticky" }} className=" flex-block">
             {productRelated?.map((value, key) => {
                 return <ItemProduct key={key} dataProduct={value} />
             })}

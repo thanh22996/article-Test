@@ -5,7 +5,7 @@ const ItemProduct = ({ dataProduct }) => {
     // const { dataProduct, functionTest } = props
     return (
         <div
-            style={{ margin: 20, position: 'relative' }}
+            style={{ marginTop: 20, position: 'relative' }}
             className='product-block'
         >
             <div className='wrapper-sale'>

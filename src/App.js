@@ -7,6 +7,7 @@ import { TodoListContainer } from "./containers/TodoListContainer";
 import ProductPage from "./pages/Product";
 import CartProductPage from "./pages/Cart";
 import DetailProductPage from "./pages/Detail";
+import CheckoutPage from "./pages/Checkout";
 
 function App() {
   let location = useLocation();
@@ -22,6 +23,8 @@ function App() {
           <Route path="/product-new" component={ProductPage} />
           <Route path="/product-detail" component={DetailProductPage} />
           <Route path="/product-cart" component={CartProductPage} />
+          <Route path="/product-checkout" component={CheckoutPage} />
+
 
 
         </Switch>

@@ -74,6 +74,8 @@ export const productRelated = [
         description: 'Unique Blue Bag',
         currentPrice: '$49.00',
         price: '$99.00',
+        quantity: "1",
+        nameProduct: "Reebok Shoes"
     },
     {
         sale: '50%',
@@ -82,6 +84,8 @@ export const productRelated = [
         description: 'Unique Blue Bag',
         currentPrice: '$49.00',
         price: '$99.00',
+        quantity: "2",
+        nameProduct: "Wristwatch"
     },
     {
         sale: '50%',
@@ -90,6 +94,8 @@ export const productRelated = [
         description: 'Unique Blue Bag',
         currentPrice: '$49.00',
         price: '$99.00',
+        quantity: "3",
+        nameProduct: "Important Shoes"
     },
     {
         sale: '50%',
@@ -98,6 +104,8 @@ export const productRelated = [
         description: 'Unique Blue Bag',
         currentPrice: '$49.00',
         price: '$99.00',
+        quantity: "4",
+        nameProduct: "Sneaker"
     }
 
 ]

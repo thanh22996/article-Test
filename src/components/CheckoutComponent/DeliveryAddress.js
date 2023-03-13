@@ -2,8 +2,8 @@ import React from "react";
 
 const DeliveryAddress = () => {
 
-    return <div style={{ marginTop: -55 }} className="componentCheckout-control">
-        <h3 className="headerCheckout"> Order Summary </h3>
+    return <div style={{ marginTop: 5 }} className="componentCheckout-control">
+        <h3 className="headerCheckout"> Delivery Address </h3>
 
         <div className="inputCheckout-block">
             <p>First Name</p>

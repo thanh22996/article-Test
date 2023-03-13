@@ -6,7 +6,7 @@ import MainLayout from "../../Layout/MainLayout";
 
 function CheckoutPage() {
     return <MainLayout>
-        <div className="form-container flex-block">
+        <div className="form-container flex-control" >
             <OrderSummary></OrderSummary>
             <DeliveryAddress></DeliveryAddress>
             <BillingDetail></BillingDetail>

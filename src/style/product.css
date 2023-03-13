@@ -281,7 +281,7 @@ thead>tr>th {
 }
 
 .componentCheckout-control {
-  max-width: 373px;
+  width: 370px;
   background-color: #fff;
   position: sticky;
   border-radius: 0.3rem;
@@ -311,11 +311,15 @@ thead>tr>th {
 
 .tablehasBorder {
   border: solid #e0e2e8 1px;
+  width: 330px;
+  margin-bottom: 10px;
+  border-radius: 0.3rem;
 }
 
-.tablehasBorder tr {
+/* .tablehasBorder tr {
   border: solid #e0e2e8 1px;
-}
+  border-radius: 0.3rem;
+} */
 
 .displayCheckout-page {
   display: flex;
@@ -355,11 +359,38 @@ select {
 .btnCheckout-control {
   padding: 10px;
   border: none;
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 
 
 tr {
   padding: 10rem 3rem;
 
+}
+
+.flex-control {
+  display: flex;
+  align-items: center;
+}
+
+.flex-control p {
+  max-width: 50px;
+}
+
+.btnPaypal {
+  border: solid #e0e2e8 1px;
+  border-radius: 0.3rem;
+  width: 330px;
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.btn-place-order {
+  border: none;
+  height: 50px;
+  border-radius: 0.3rem;
+  width: 330px;
+  background-color: #567aed;
+  color: #fff;
 }

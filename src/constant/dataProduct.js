@@ -105,7 +105,7 @@ export const productRelated = [
         currentPrice: '$49.00',
         price: '$99.00',
         quantity: "4",
-        nameProduct: "Sneaker"
+        nameProduct: "Sneaker   "
     }
 
 ]

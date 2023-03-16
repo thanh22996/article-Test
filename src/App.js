@@ -8,6 +8,8 @@ import ProductPage from "./pages/Product";
 import CartProductPage from "./pages/Cart";
 import DetailProductPage from "./pages/Detail";
 import CheckoutPage from "./pages/Checkout";
+import BasicElement from "./pages/BasicElement";
+import FormGroups from "./pages/FormGroups";
 
 function App() {
   let location = useLocation();
@@ -24,6 +26,8 @@ function App() {
           <Route path="/product-detail" component={DetailProductPage} />
           <Route path="/product-cart" component={CartProductPage} />
           <Route path="/product-checkout" component={CheckoutPage} />
+          <Route path={"/form-basic"} component={BasicElement} />
+          <Route path={"/form-groups"} component={FormGroups} />
 
 
 
